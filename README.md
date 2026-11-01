@@ -4,6 +4,8 @@
 
 ## 使用
 
+成品下载：[GitHub Releases](https://github.com/EConG37/personal-health-assistant/releases/latest)。
+
 Windows 成品放在 `release/0.1.2/`：安装版可创建桌面快捷方式；免安装 ZIP 先解压整个文件夹，再打开 `HealthCompanion.exe`，请保留其余文件。另保留自解压启动的免安装 EXE。都不需要 Node.js；开启自启时请将解压后的文件夹或免安装 EXE 保留在固定位置。已有用户继续使用本机记录，新用户从首次引导开始。
 
 开发和重新打包的说明见 [Windows 打包与隐私检查](docs/windows-release.md)。
