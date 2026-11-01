@@ -1,6 +1,6 @@
 {
   "name": "uric-acid-companion",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": true,
   "description": "个人健康助手：多目标引导、饮食喜好、静默饮水与飞书同步",
   "author": "日常",
@@ -12,6 +12,7 @@
     "test:interactions": "node scripts/test-interactions.js",
     "test:dishes": "node scripts/test-guide-dishes.js",
     "test:security": "node scripts/test-security.js",
+    "test:manual-meals": "node scripts/test-manual-meals.js",
     "build:icon": "node scripts/build-app-icon.js",
     "audit:source": "node scripts/audit-release.js --source",
     "audit:repository": "node scripts/audit-repository.js",

@@ -6,6 +6,7 @@ const crypto = require('crypto');
 const { execFile } = require('child_process');
 const { validateProfile } = require('./profile');
 const { FeishuAppTransport }=require('./feishu-app');
+const {MEAL_SLOTS, mealRevision} = require('./meals');
 const FIELDS = [
   ['记录键','text'],['类型','text'],['日期','text'],['饮水ml','number'],['目标ml','number'],
   ['体重kg','number'],['健康目标','text'],['餐食','text'],['手机补记ml','number'],['数据JSON','text']
@@ -43,7 +44,9 @@ function mergeDay(local={},remote={}) {
     if(!deletedLogIds.includes(id) && (!logs.has(id) || log.ts>=logs.get(id).ts)) logs.set(id,{...log,id});
   }
   const meals=new Map();
-  for(const meal of [...(remote.meals||[]),...(local.meals||[])]) if(['breakfast','lunch','dinner','snack'].includes(meal.slot) && Array.isArray(meal.items)) meals.set(meal.slot,meal);
+  for(const meal of [...(remote.meals||[]),...(local.meals||[])]) if(['breakfast','lunch','dinner','snack'].includes(meal.slot) && Array.isArray(meal.items)) {
+    if (!meals.has(meal.slot) || mealRevision(meal) >= mealRevision(meals.get(meal.slot))) meals.set(meal.slot,meal);
+  }
   const out={...remote,...local,logs:[...logs.values()].sort((a,b)=>a.ts-b.ts),meals:[...meals.values()],deletedLogIds};
   out.water=out.logs.reduce((s,l)=>s+l.ml,0);
   for(const key of ['mealChoices','cardState']){
@@ -190,7 +193,7 @@ class FeishuSync {
         const text=JSON.stringify(payload);
         if(row && hash(JSON.parse(row['数据JSON'] || '{}'))===hash(payload)) continue;
         const fields={'记录键':key,'类型':key==='profile'?'健康档案':'每日记录','日期':key.startsWith('day:')?key.slice(4):'','健康目标':this.store.profile.goals.join('、'),'数据JSON':text};
-        if(key!=='profile') Object.assign(fields,{'饮水ml':payload.water||0,'目标ml':this.store.effectiveWaterTarget,'体重kg':payload.weightKg||this.store.profile.weightKg,'餐食':(payload.meals||[]).map(m=>m.items.map(i=>i.name || i.foodId).join('、')).join(' / ')});
+        if(key!=='profile') Object.assign(fields,{'饮水ml':payload.water||0,'目标ml':this.store.effectiveWaterTarget,'体重kg':payload.weightKg||this.store.profile.weightKg,'餐食':(payload.meals||[]).map(m=>(MEAL_SLOTS[m.slot]||'用餐')+'：'+m.items.map(i=>i.name || i.foodId).join('、')).join(' / ')});
         if(row) await this.run([...this.args('+record-batch-update'),'--json',JSON.stringify({update_records:{[row.record_id]:fields}})]);
         else await this.run([...this.args('+record-batch-create'),'--json',JSON.stringify({create_records:[fields]})]);
       }

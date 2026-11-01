@@ -8,6 +8,7 @@ const path = require('path');
 const { waterTarget } = require('./rules');
 const { validateProfile, needsWaterAdvice } = require('./profile');
 const crypto = require('crypto');
+const {MEAL_SLOTS, mealRevision, manualMealText} = require('./meals');
 
 const VERSION = 2;
 
@@ -130,6 +131,22 @@ class Store {
     d.meals.push({ ts, slot, items, source });
     this.save();
     return d;
+  }
+
+  logManualMeal(input) {
+    if (!input || typeof input !== 'object' || Array.isArray(input)) throw new Error('用餐记录格式无效');
+    const {slot, text, date = todayKey(), expectedRevision} = input;
+    if (!Object.hasOwn(MEAL_SLOTS, slot)) throw new Error('请选择早餐、午餐、晚餐或加餐');
+    if (date !== todayKey()) throw new Error('日期已变更，请复制输入内容，再重新打开记餐窗口');
+    const name = manualMealText(text);
+    const previous = this.today().meals.find(meal => meal.slot === slot);
+    if (!Number.isFinite(expectedRevision) || expectedRevision !== mealRevision(previous)) throw new Error('这餐的记录已更新，请关闭窗口后重新打开，再确认内容');
+    const updatedAt = Math.max(Date.now(), mealRevision(previous) + 1);
+    const meal = {slot, source:'manual', items:[{name}], ts:previous?.ts || updatedAt, updatedAt};
+    const day = this.today();
+    day.meals = [...day.meals.filter(value => value.slot !== slot), meal];
+    this.save();
+    return day;
   }
 
   setCardState(slot, patch) {

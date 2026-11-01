@@ -35,5 +35,10 @@ module.exports=async function({win,store,buildState,vault,tray}){
  // Decode shipped font/image files through the production renderer.
  const assets=await js('(async()=>{await document.fonts.ready;const urls=[...new Set([...document.querySelectorAll("[data-art-food],[data-art-recipe]")].flatMap(e=>[...getComputedStyle(e).backgroundImage.matchAll(/url\\("?([^"\\)]+)"?\\)/g)].map(m=>m[1])))];await Promise.all(urls.map(src=>new Promise((resolve,reject)=>{const i=new Image();i.onload=resolve;i.onerror=reject;i.src=src;})));return {images:urls.length,font:document.fonts.check("14px PuHui")};})()');
  assert(assets.images>0&&assets.font);
- return {ok:true,freshProfile:true,syncDisabled:true,noSavedCredentials:true,hydration:true,nineCards:true,recipeSources:true,sandbox:true,nativeHelper:process.platform==='win32'?true:null,assets:true,platform:process.platform,electron:process.versions.electron};
+ await js('document.querySelector("nav [data-tab=today]").click();document.querySelector(".meal-record-entry [data-act=manual-meal]").click();');
+ assert(await js('document.querySelector("#manual-meal-dialog").matches(":modal")'));
+ await js('(()=>{const field=document.querySelector("#manual-meal-text");field.value="番茄炒蛋、米饭";field.dispatchEvent(new Event("input",{bubbles:true}));document.querySelector("#manual-meal-form").requestSubmit();})()');
+ await wait('!document.querySelector("#manual-meal-dialog").open');
+ assert.equal(store.today().meals.length,1);assert.equal(store.today().meals[0].source,'manual');assert.equal(store.today().meals[0].items[0].name,'番茄炒蛋、米饭');
+ return {ok:true,freshProfile:true,syncDisabled:true,noSavedCredentials:true,hydration:true,nineCards:true,recipeSources:true,manualMeals:true,sandbox:true,nativeHelper:process.platform==='win32'?true:null,assets:true,platform:process.platform,electron:process.versions.electron};
 };

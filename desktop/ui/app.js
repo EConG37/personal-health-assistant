@@ -108,6 +108,10 @@ function readDelivery(){
 }
 view.addEventListener('click',async e=>{
  const b=e.target.closest('[data-act]');if(!b)return;const act=b.dataset.act;
+ if(act==='manual-meal'){
+  if(busy)return;
+  manualMeal.open({slot:b.dataset.slot||state.deck.slot,date:state.today.date,meals:state.today.meals,onSaved:s=>{state=s;render({focus:true});feedback('已保存实际用餐记录');}});return;
+ }
  if(act==='food'){
   const key=b.dataset.kind,other=key==='favoriteFoods'?'dislikedFoods':'favoriteFoods',id=b.dataset.food,ids=new Set(draft[key]);
   if(ids.has(id))ids.delete(id);else ids.add(id);draft[key]=[...ids];draft[other]=draft[other].filter(v=>v!==id);
@@ -210,9 +214,9 @@ for(const b of document.querySelectorAll('nav button'))b.addEventListener('click
 $('#btn-close').addEventListener('click',()=>window.hh.hide());
 window.hh.onStatus(s=>{
  if(!state)return;const before=state,presented=motionAllowed()?waterPresentation():null;state=s;applyMotionPreferences();
- if(busy||isOnboarding()||tab==='settings'||inspector||showDelivery||document.activeElement?.matches('input,select,textarea'))return;
+ if(busy||isOnboarding()||tab==='settings'||inspector||showDelivery||document.querySelector('#manual-meal-dialog')?.open||document.activeElement?.matches('input,select,textarea'))return;
  if(tab==='plan'&&JSON.stringify([before.deck,before.mealSelection,before.today.meals])===JSON.stringify([s.deck,s.mealSelection,s.today.meals]))return;
- if(tab==='today'&&JSON.stringify([before.today.water,before.target,before.reminder,before.profile,before.mealSelection,before.week])===JSON.stringify([s.today.water,s.target,s.reminder,s.profile,s.mealSelection,s.week]))return;
+ if(tab==='today'&&JSON.stringify([before.today.water,before.today.meals,before.target,before.reminder,before.profile,before.mealSelection,before.week])===JSON.stringify([s.today.water,s.today.meals,s.target,s.reminder,s.profile,s.mealSelection,s.week]))return;
  render();
  if(tab==='today'&&before.status.progress!==s.status.progress)animateWaterChange(before.status.progress,s.status.progress,presented);
 });

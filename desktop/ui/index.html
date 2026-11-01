@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="cups.css" />
     <link rel="stylesheet" href="food-art.css" />
     <link rel="stylesheet" href="settings-polish.css" />
+    <link rel="stylesheet" href="manual-meal.css" />
   </head>
   <body>
     <div id="app">
@@ -43,5 +44,20 @@
       <div class="guide-footer"><button type="button" class="btn ghost" data-guide-prev>上一步</button><button type="button" class="btn primary" data-guide-next>下一步</button></div>
     </dialog>
     <script src="sync-guide.js"></script>
+    <dialog id="manual-meal-dialog" class="manual-meal-dialog" aria-labelledby="manual-meal-title" aria-describedby="manual-meal-help" closedby="closerequest">
+      <form id="manual-meal-form" method="post">
+        <div class="manual-meal-heading"><span class="eyebrow">今天 · 用餐记录</span><h2 id="manual-meal-title">记下吃过的一餐</h2><p id="manual-meal-help" class="hint">没有在翻牌里找到？按自己的话，写下实际吃了什么。</p></div>
+        <fieldset class="manual-meal-slots"><legend>哪一餐</legend>
+          <label><input type="radio" name="slot" value="breakfast" required /><span>早餐</span></label>
+          <label><input type="radio" name="slot" value="lunch" required /><span>午餐</span></label>
+          <label><input type="radio" name="slot" value="dinner" required /><span>晚餐</span></label>
+          <label><input type="radio" name="slot" value="snack" required /><span>加餐</span></label>
+        </fieldset>
+        <div class="field manual-meal-field"><label for="manual-meal-text">吃了什么（必填）</label><textarea id="manual-meal-text" name="text" rows="4" maxlength="300" required aria-describedby="manual-meal-count manual-meal-error" placeholder="比如：番茄炒蛋、米饭、紫菜汤" autofocus></textarea><p id="manual-meal-count" class="hint">0 / 300</p></div>
+        <p id="manual-meal-error" class="manual-meal-error" role="alert" tabindex="-1"></p>
+        <div class="manual-meal-actions"><button type="button" class="btn ghost" command="close" commandfor="manual-meal-dialog">先不记</button><button type="submit" class="btn primary">保存记录</button></div>
+      </form>
+    </dialog>
+    <script src="manual-meal.js"></script>
   </body>
 </html>

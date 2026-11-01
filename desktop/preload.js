@@ -8,6 +8,7 @@ contextBridge.exposeInMainWorld('hh', {
   logWeight: (kg) => ipcRenderer.invoke('hh:logWeight', kg),
   regenerate: () => ipcRenderer.invoke('hh:regenerate'),
   logMeal: (slot) => ipcRenderer.invoke('hh:logMeal', slot),
+  logManualMeal: (input) => ipcRenderer.invoke('hh:logManualMeal', input),
   quiet: (min) => ipcRenderer.invoke('hh:quiet', min),
   previewReminder:()=>ipcRenderer.invoke('hh:previewReminder'),
   openDataDir: () => ipcRenderer.invoke('hh:openDataDir'),

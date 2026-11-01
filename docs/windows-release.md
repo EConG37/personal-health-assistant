@@ -1,6 +1,6 @@
 # Windows 打包与隐私检查
 
-运行 `npm run release:win` 生成 Windows x64 安装版、自解压免安装 EXE 和文件夹免安装 ZIP，检查分发内容，并将成品、说明、报告及校验值放到 `release/0.1.2/`。也可依次运行 `npm run dist:win`、`npm run test:release`、`python scripts/build-portable-zip.py`、`node scripts/finalize-release.js`。不分发整个源码或构建目录。
+运行 `npm run release:win` 生成 Windows x64 安装版、自解压免安装 EXE 和文件夹免安装 ZIP，检查分发内容，并将成品、说明、报告及校验值放到 `release/0.1.3/`。也可依次运行 `npm run dist:win`、`npm run test:release`、`python scripts/build-portable-zip.py`、`node scripts/finalize-release.js`。不分发整个源码或构建目录。
 
 ZIP 需完整解压再启动 `HealthCompanion.exe`；构建脚本核对压缩包的每项文件与原目录哈希，并实际运行解压后的程序完成独立数据自检。免安装 EXE 则在启动时自行解压。启用自启后，两种形式都需要保持所在位置稳定。
 

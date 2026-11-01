@@ -248,7 +248,7 @@ function buildState() {
   return {
     profile: store.profile,
     target: store.effectiveWaterTarget,
-    today: { water: today.water, meals: today.meals, logs: today.logs.length },
+    today: { date:todayKey(), water: today.water, meals: today.meals, logs: today.logs.length },
     deck:getDeck(),
     mealSelection:choiceSummary(today,store.profile),
     status,
@@ -367,6 +367,11 @@ function registerIpc() {
     const meal=activeChoices(store.today(),store.profile)[slot];
     if(!meal)throw new Error('请先翻牌并确认这餐的搭配');
     store.logMeal({slot,items:meal.items,source:'cards'});
+    return buildState();
+  });
+
+  handle('hh:logManualMeal', (_e, input) => {
+    store.logManualMeal(input);
     return buildState();
   });
 

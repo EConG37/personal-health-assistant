@@ -1,6 +1,6 @@
 # Mac 试用包
 
-0.1.2 同时提供 arm64（M 系列苹果芯片）和 x64（Intel），要求 macOS 13.0 或以上。格式是包含完整 `.app` 的 ZIP 分发包，不是改名的 Windows EXE 或 DMG。
+0.1.3 同时提供 arm64（M 系列苹果芯片）和 x64（Intel），要求 macOS 13.0 或以上。格式是包含完整 `.app` 的 ZIP 分发包，不是改名的 Windows EXE 或 DMG。
 
 ## 使用
 
