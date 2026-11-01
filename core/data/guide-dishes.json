@@ -1,0 +1,3392 @@
+{
+  "version": "nhc-dishes-v1",
+  "sources": {
+    "gout-guide-2024": {
+      "title": "成人高尿酸血症与痛风食养指南（2024年版）",
+      "goal": "uric",
+      "url": "https://www.nhc.gov.cn/sps/c100088/202402/9ba512ba8e314a47a181db11d2fa188d.shtml",
+      "section": "附录3 食谱示例",
+      "scope": "无症状高尿酸血症期、痛风间歇期的食谱示例"
+    },
+    "hypertension-guide-2023": {
+      "title": "成人高血压食养指南（2023年版）",
+      "goal": "pressure",
+      "url": "https://www.nhc.gov.cn/cms-search/downFiles/63f752a17cfd4b4781f744477561866f.pdf",
+      "section": "附录3 不同地区食谱示例",
+      "scope": "成人高血压人群的地区食谱示例"
+    },
+    "glucose-guide-2023": {
+      "title": "成人糖尿病食养指南（2023年版）",
+      "goal": "glucose",
+      "url": "https://www.nhc.gov.cn/cms-search/downFiles/4fcbecd2c18e46baaf291bf46c2b79cd.pdf",
+      "section": "不同地区食谱示例",
+      "scope": "成人糖尿病人群的食谱示例"
+    },
+    "lipids-guide-2023": {
+      "title": "成人高脂血症食养指南（2023年版）",
+      "goal": "lipids",
+      "url": "https://www.nhc.gov.cn/cms-search/downFiles/252e7bd69d064fc5a00f02fbc64b5e23.pdf",
+      "section": "附录3 食谱示例",
+      "scope": "指南中的日常菜品示例；不用于自动判断中医证型"
+    },
+    "obesity-guide-2024": {
+      "title": "成人肥胖食养指南（2024年版）",
+      "goal": "weight",
+      "url": "https://www.nhc.gov.cn/sps/c100088/202402/9ba512ba8e314a47a181db11d2fa188d.shtml",
+      "section": "食谱示例",
+      "scope": "成人肥胖人群的地区食谱示例"
+    }
+  },
+  "dishes": [
+    {
+      "id": "guide_d8013dbfc994",
+      "name": "番茄炒蛋",
+      "sourceName": "西红柿炒鸡蛋",
+      "kind": "protein",
+      "coverFoodId": "egg",
+      "ingredientIds": [
+        "tomato",
+        "egg"
+      ],
+      "ingredients": [
+        "西红柿",
+        "鸡蛋"
+      ],
+      "allergens": [
+        "egg"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 38
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "lipids-guide-2023",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_23818dab98a6",
+      "name": "西葫芦炒鸡蛋",
+      "sourceName": "西葫芦炒鸡蛋",
+      "kind": "protein",
+      "coverFoodId": "egg",
+      "ingredientIds": [
+        "zucchini",
+        "egg"
+      ],
+      "ingredients": [
+        "西葫芦",
+        "鸡蛋"
+      ],
+      "allergens": [
+        "egg"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 23
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_44e2c655e884",
+      "name": "韭菜炒鸡蛋",
+      "sourceName": "韭菜炒鸡蛋",
+      "kind": "protein",
+      "coverFoodId": "egg",
+      "ingredientIds": [
+        "egg"
+      ],
+      "ingredients": [
+        "韭菜",
+        "鸡蛋"
+      ],
+      "allergens": [
+        "egg"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_bc59a6cd132a",
+      "name": "青椒炒肉丝",
+      "sourceName": "青椒炒肉丝",
+      "kind": "protein",
+      "coverFoodId": "pork_lean",
+      "ingredientIds": [
+        "pepper_green",
+        "pork_lean"
+      ],
+      "ingredients": [
+        "柿子椒",
+        "猪瘦肉"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 23
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_4f4a9dc58bbe",
+      "name": "芹菜炒肉丝",
+      "sourceName": "芹菜炒肉丝",
+      "kind": "protein",
+      "coverFoodId": "pork_lean",
+      "ingredientIds": [
+        "celery",
+        "pork_lean"
+      ],
+      "ingredients": [
+        "西芹",
+        "猪瘦肉"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_8a4f44e21fd9",
+      "name": "芹菜炒鸡丝",
+      "sourceName": "芹菜炒鸡丝",
+      "kind": "protein",
+      "coverFoodId": "chicken_breast",
+      "ingredientIds": [
+        "celery",
+        "chicken_breast"
+      ],
+      "ingredients": [
+        "芹菜",
+        "去皮鸡肉"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 26
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_c88d53578226",
+      "name": "西兰花炒鸡胸肉",
+      "sourceName": "西兰花炒鸡胸肉",
+      "kind": "protein",
+      "coverFoodId": "chicken_breast",
+      "ingredientIds": [
+        "broccoli",
+        "chicken_breast"
+      ],
+      "ingredients": [
+        "西兰花",
+        "鸡胸肉"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 25
+        }
+      ],
+      "relatedSources": [
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_8b735eae97a9",
+      "name": "西兰花炒肉片",
+      "sourceName": "西兰花炒肉片",
+      "kind": "protein",
+      "coverFoodId": "beef_lean",
+      "ingredientIds": [
+        "broccoli",
+        "beef_lean"
+      ],
+      "ingredients": [
+        "西兰花",
+        "牛瘦肉"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 25
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_98da3f29f1ea",
+      "name": "木耳炒鸡胸肉",
+      "sourceName": "木耳炒鸡胸肉",
+      "kind": "protein",
+      "coverFoodId": "chicken_breast",
+      "ingredientIds": [
+        "chicken_breast"
+      ],
+      "ingredients": [
+        "鸡胸肉",
+        "木耳",
+        "豆角"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "lipids-guide-2023",
+          "page": 27
+        }
+      ],
+      "relatedSources": [
+        "lipids-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_8143405da811",
+      "name": "西红柿炖牛肉",
+      "sourceName": "西红柿炖牛肉",
+      "kind": "protein",
+      "coverFoodId": "beef_lean",
+      "ingredientIds": [
+        "tomato",
+        "beef_lean",
+        "tofu"
+      ],
+      "ingredients": [
+        "西红柿",
+        "牛瘦肉",
+        "豆腐"
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_0199fe784963",
+      "name": "洋葱西红柿烩牛肉",
+      "sourceName": "洋葱西红柿烩牛肉",
+      "kind": "protein",
+      "coverFoodId": "beef_lean",
+      "ingredientIds": [
+        "onion",
+        "beef_lean",
+        "potato",
+        "tomato"
+      ],
+      "ingredients": [
+        "洋葱",
+        "牛肉",
+        "土豆",
+        "西红柿"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "lipids-guide-2023",
+          "page": 22
+        }
+      ],
+      "relatedSources": [
+        "lipids-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_60129c8a1818",
+      "name": "胡萝卜炖牛肉",
+      "sourceName": "胡萝卜炖牛肉",
+      "kind": "protein",
+      "coverFoodId": "beef_lean",
+      "ingredientIds": [
+        "beef_lean",
+        "carrot"
+      ],
+      "ingredients": [
+        "牛肉",
+        "胡萝卜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 19
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_c71a12ec6531",
+      "name": "土豆炖牛肉",
+      "sourceName": "土豆炖牛肉",
+      "kind": "protein",
+      "coverFoodId": "beef_lean",
+      "ingredientIds": [
+        "potato",
+        "onion",
+        "beef_lean"
+      ],
+      "ingredients": [
+        "土豆",
+        "洋葱",
+        "牛肉"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_5011c602c4e9",
+      "name": "清蒸鲈鱼",
+      "sourceName": "清蒸鲈鱼",
+      "kind": "protein",
+      "coverFoodId": "fish_bass",
+      "ingredientIds": [
+        "fish_bass"
+      ],
+      "ingredients": [
+        "鲈鱼"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "steam",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 20
+        },
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 26
+        },
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 52
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "lipids-guide-2023",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_59c902a34c24",
+      "name": "水煮鸡胸肉",
+      "sourceName": "水煮鸡胸肉",
+      "kind": "protein",
+      "coverFoodId": "chicken_breast",
+      "ingredientIds": [
+        "chicken_breast"
+      ],
+      "ingredients": [
+        "水煮鸡胸肉"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "steam",
+      "sourceRefs": [
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 26
+        }
+      ],
+      "relatedSources": [
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_30ff853ff163",
+      "name": "虾仁炒西葫芦",
+      "sourceName": "虾仁炒西葫芦",
+      "kind": "protein",
+      "coverFoodId": "shrimp",
+      "ingredientIds": [
+        "shrimp",
+        "zucchini"
+      ],
+      "ingredients": [
+        "虾仁",
+        "西葫芦"
+      ],
+      "allergens": [
+        "shellfish"
+      ],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 25
+        }
+      ],
+      "relatedSources": [
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_4a0b1449634b",
+      "name": "虾仁炒黄瓜",
+      "sourceName": "虾仁炒黄瓜",
+      "kind": "protein",
+      "coverFoodId": "shrimp",
+      "ingredientIds": [
+        "cucumber",
+        "shrimp"
+      ],
+      "ingredients": [
+        "黄瓜",
+        "虾仁"
+      ],
+      "allergens": [
+        "shellfish"
+      ],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_2ba46f61d02b",
+      "name": "小葱拌豆腐",
+      "sourceName": "小葱拌豆腐",
+      "kind": "protein",
+      "coverFoodId": "tofu",
+      "ingredientIds": [
+        "tofu"
+      ],
+      "ingredients": [
+        "小葱",
+        "豆腐"
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 23
+        }
+      ],
+      "relatedSources": [
+        "obesity-guide-2024",
+        "lipids-guide-2023",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_07afe157da47",
+      "name": "青椒豆干",
+      "sourceName": "青椒豆干",
+      "kind": "protein",
+      "coverFoodId": "tofu_dry",
+      "ingredientIds": [
+        "pepper_green",
+        "tofu_dry"
+      ],
+      "ingredients": [
+        "青椒",
+        "豆腐干"
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 25
+        }
+      ],
+      "relatedSources": [
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_b147eac1cf73",
+      "name": "芦笋豆腐干",
+      "sourceName": "芦笋豆腐干",
+      "kind": "protein",
+      "coverFoodId": "tofu_dry",
+      "ingredientIds": [
+        "asparagus",
+        "tofu_dry"
+      ],
+      "ingredients": [
+        "芦笋",
+        "豆腐干",
+        "口蘑"
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "lipids-guide-2023",
+          "page": 22
+        }
+      ],
+      "relatedSources": [
+        "lipids-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_ce1773ae433a",
+      "name": "香干莴笋",
+      "sourceName": "香干莴笋",
+      "kind": "protein",
+      "coverFoodId": "tofu_dry",
+      "ingredientIds": [
+        "celtuce",
+        "tofu_dry"
+      ],
+      "ingredients": [
+        "莴笋",
+        "豆腐干"
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_ffcf28d3fd92",
+      "name": "滑炒鸡片",
+      "sourceName": "滑炒鸡片",
+      "kind": "protein",
+      "coverFoodId": "chicken_breast",
+      "ingredientIds": [
+        "chicken_breast"
+      ],
+      "ingredients": [
+        "鸡肉",
+        "淀粉",
+        "葱段",
+        "生姜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "lipids-guide-2023",
+          "page": 25
+        }
+      ],
+      "relatedSources": [
+        "lipids-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_1e404344db5e",
+      "name": "豆干肉丝",
+      "sourceName": "豆干肉丝",
+      "kind": "protein",
+      "coverFoodId": "tofu_dry",
+      "ingredientIds": [
+        "tofu_dry",
+        "carrot",
+        "pork_lean"
+      ],
+      "ingredients": [
+        "豆腐干",
+        "胡萝卜",
+        "猪瘦肉"
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "lipids-guide-2023",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "lipids-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_3ef61f82d427",
+      "name": "鸡丝芦笋",
+      "sourceName": "鸡丝芦笋",
+      "kind": "protein",
+      "coverFoodId": "chicken_breast",
+      "ingredientIds": [
+        "chicken_breast",
+        "asparagus"
+      ],
+      "ingredients": [
+        "鸡胸肉",
+        "芦笋"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 49
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_e376c03a3687",
+      "name": "鸡片炒油菜",
+      "sourceName": "鸡片炒油菜",
+      "kind": "protein",
+      "coverFoodId": "chicken_breast",
+      "ingredientIds": [
+        "chicken_breast",
+        "bok_choy"
+      ],
+      "ingredients": [
+        "鸡胸肉",
+        "油菜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 23
+        }
+      ],
+      "relatedSources": [
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_d944ea860346",
+      "name": "蘑菇炒肉",
+      "sourceName": "蘑菇炒肉",
+      "kind": "protein",
+      "coverFoodId": "beef_lean",
+      "ingredientIds": [
+        "mushroom_fresh",
+        "bok_choy",
+        "beef_lean"
+      ],
+      "ingredients": [
+        "香菇",
+        "油菜",
+        "牛肉"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_8afa20d8aefa",
+      "name": "尖椒炒肉",
+      "sourceName": "尖椒炒肉",
+      "kind": "protein",
+      "coverFoodId": "pork_lean",
+      "ingredientIds": [
+        "pepper_green",
+        "pork_lean"
+      ],
+      "ingredients": [
+        "尖椒",
+        "猪里脊肉"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_bb97a878a861",
+      "name": "煮鸡蛋",
+      "sourceName": "煮鸡蛋",
+      "kind": "protein",
+      "coverFoodId": "egg",
+      "ingredientIds": [
+        "egg"
+      ],
+      "ingredients": [
+        "鸡蛋"
+      ],
+      "allergens": [
+        "egg"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "steam",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 23
+        },
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 19
+        },
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 22
+        },
+        {
+          "sourceId": "lipids-guide-2023",
+          "page": 21
+        },
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 23
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "lipids-guide-2023",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_763f31ff64f9",
+      "name": "荷包蛋",
+      "sourceName": "荷包蛋",
+      "kind": "protein",
+      "coverFoodId": "egg",
+      "ingredientIds": [
+        "egg"
+      ],
+      "ingredients": [
+        "鸡蛋"
+      ],
+      "allergens": [
+        "egg"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 24
+        },
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 29
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_7eaa52bd7588",
+      "name": "凉拌黄瓜",
+      "sourceName": "凉拌黄瓜",
+      "kind": "veg",
+      "coverFoodId": "cucumber",
+      "ingredientIds": [
+        "cucumber"
+      ],
+      "ingredients": [
+        "黄瓜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 24
+        },
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 31
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_216e56c65538",
+      "name": "凉拌菠菜",
+      "sourceName": "凉拌菠菜",
+      "kind": "veg",
+      "coverFoodId": "spinach",
+      "ingredientIds": [
+        "spinach"
+      ],
+      "ingredients": [
+        "菠菜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 20
+        },
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 22
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_fcf147eaaec1",
+      "name": "清炒西兰花",
+      "sourceName": "清炒西兰花",
+      "kind": "veg",
+      "coverFoodId": "broccoli",
+      "ingredientIds": [
+        "broccoli"
+      ],
+      "ingredients": [
+        "西兰花"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 46
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_10703a2e5f11",
+      "name": "蒜蓉西兰花",
+      "sourceName": "蒜蓉西兰花",
+      "kind": "veg",
+      "coverFoodId": "broccoli",
+      "ingredientIds": [
+        "broccoli"
+      ],
+      "ingredients": [
+        "西兰花"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 31
+        },
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 27
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_2f92a22d8d90",
+      "name": "西兰花炒胡萝卜",
+      "sourceName": "西兰花炒胡萝卜",
+      "kind": "veg",
+      "coverFoodId": "broccoli",
+      "ingredientIds": [
+        "broccoli",
+        "carrot"
+      ],
+      "ingredients": [
+        "西兰花",
+        "胡萝卜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 34
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "lipids-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_e1cc7daa379f",
+      "name": "胡萝卜炒西兰花",
+      "sourceName": "胡萝卜炒西兰花",
+      "kind": "veg",
+      "coverFoodId": "carrot",
+      "ingredientIds": [
+        "carrot",
+        "broccoli"
+      ],
+      "ingredients": [
+        "胡萝卜",
+        "西兰花"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "lipids-guide-2023",
+          "page": 22
+        }
+      ],
+      "relatedSources": [
+        "lipids-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_f16acfdd9614",
+      "name": "香菇炒芹菜",
+      "sourceName": "香菇炒芹菜",
+      "kind": "veg",
+      "coverFoodId": "celery",
+      "ingredientIds": [
+        "celery",
+        "mushroom_fresh"
+      ],
+      "ingredients": [
+        "芹菜",
+        "香菇",
+        "淀粉"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "lipids-guide-2023",
+          "page": 21
+        }
+      ],
+      "relatedSources": [
+        "lipids-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_f1c4e13bb817",
+      "name": "洋葱炒木耳",
+      "sourceName": "洋葱炒木耳",
+      "kind": "protein",
+      "coverFoodId": "onion",
+      "ingredientIds": [
+        "onion",
+        "celery",
+        "chicken_breast"
+      ],
+      "ingredients": [
+        "洋葱",
+        "木耳",
+        "芹菜",
+        "鸡胸肉"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": true,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "lipids-guide-2023",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "lipids-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_56cecb4c85a3",
+      "name": "香菇炒油菜",
+      "sourceName": "香菇炒油菜",
+      "kind": "veg",
+      "coverFoodId": "mushroom_fresh",
+      "ingredientIds": [
+        "mushroom_fresh",
+        "bok_choy"
+      ],
+      "ingredients": [
+        "香菇",
+        "油菜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 29
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "obesity-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_f9ffbb132de9",
+      "name": "香菇炒菜心",
+      "sourceName": "香菇炒菜心",
+      "kind": "veg",
+      "coverFoodId": "mushroom_fresh",
+      "ingredientIds": [
+        "mushroom_fresh",
+        "bok_choy"
+      ],
+      "ingredients": [
+        "香菇",
+        "广东菜心"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 46
+        }
+      ],
+      "relatedSources": [
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_9aef18293df1",
+      "name": "清炒油菜",
+      "sourceName": "清炒油菜",
+      "kind": "veg",
+      "coverFoodId": "bok_choy",
+      "ingredientIds": [
+        "bok_choy"
+      ],
+      "ingredients": [
+        "油菜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 26
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_7c2b7ad8d20e",
+      "name": "素炒小白菜",
+      "sourceName": "素炒小白菜",
+      "kind": "veg",
+      "coverFoodId": "bok_choy",
+      "ingredientIds": [
+        "bok_choy"
+      ],
+      "ingredients": [
+        "小白菜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_faab88cf7dcc",
+      "name": "醋熘白菜",
+      "sourceName": "醋熘白菜",
+      "kind": "veg",
+      "coverFoodId": "cabbage",
+      "ingredientIds": [
+        "cabbage"
+      ],
+      "ingredients": [
+        "白菜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 23
+        },
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 32
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "obesity-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_2ff9ba64f207",
+      "name": "醋溜土豆丝",
+      "sourceName": "醋溜土豆丝",
+      "kind": "veg",
+      "coverFoodId": "pepper_green",
+      "ingredientIds": [
+        "potato",
+        "pepper_green"
+      ],
+      "ingredients": [
+        "土豆",
+        "青椒"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 22
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_3664442617ff",
+      "name": "蒜泥茄子",
+      "sourceName": "蒜泥茄子",
+      "kind": "veg",
+      "coverFoodId": "eggplant",
+      "ingredientIds": [
+        "eggplant"
+      ],
+      "ingredients": [
+        "茄子"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 35
+        },
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 24
+        },
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 30
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_934a1eb5c5b8",
+      "name": "凉拌蒜蓉茄子",
+      "sourceName": "凉拌蒜蓉茄子",
+      "kind": "veg",
+      "coverFoodId": "eggplant",
+      "ingredientIds": [
+        "eggplant",
+        "pepper_green"
+      ],
+      "ingredients": [
+        "茄子",
+        "柿子椒"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 25
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_5d84f3b9b153",
+      "name": "素炒三丝",
+      "sourceName": "素炒三丝",
+      "kind": "veg",
+      "coverFoodId": "carrot",
+      "ingredientIds": [
+        "carrot",
+        "cucumber",
+        "pepper_green"
+      ],
+      "ingredients": [
+        "胡萝卜丝",
+        "黄瓜丝",
+        "柿子椒"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 25
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_52f03d1691e7",
+      "name": "拌紫甘蓝",
+      "sourceName": "拌紫甘蓝",
+      "kind": "veg",
+      "coverFoodId": "cabbage_round",
+      "ingredientIds": [
+        "cabbage_round"
+      ],
+      "ingredients": [
+        "紫甘蓝"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 26
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_a0f7708dfd5e",
+      "name": "蒜蓉娃娃菜",
+      "sourceName": "蒜蓉娃娃菜",
+      "kind": "veg",
+      "coverFoodId": "cabbage",
+      "ingredientIds": [
+        "cabbage"
+      ],
+      "ingredients": [
+        "娃娃菜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 21
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_93706aae2bb7",
+      "name": "西兰花木耳",
+      "sourceName": "西兰花木耳",
+      "kind": "veg",
+      "coverFoodId": "broccoli",
+      "ingredientIds": [
+        "broccoli"
+      ],
+      "ingredients": [
+        "西兰花",
+        "木耳"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 25
+        }
+      ],
+      "relatedSources": [
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_6ecfbc42a3da",
+      "name": "素炒西葫芦",
+      "sourceName": "素炒西葫芦",
+      "kind": "veg",
+      "coverFoodId": "zucchini",
+      "ingredientIds": [
+        "zucchini"
+      ],
+      "ingredients": [
+        "西葫芦"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 20
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_c5984478aa18",
+      "name": "芦笋炒香菇",
+      "sourceName": "芦笋炒香菇",
+      "kind": "veg",
+      "coverFoodId": "asparagus",
+      "ingredientIds": [
+        "asparagus",
+        "mushroom_fresh"
+      ],
+      "ingredients": [
+        "芦笋",
+        "香菇"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "lipids-guide-2023",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "lipids-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_68fd6775029b",
+      "name": "西红柿炒西葫芦",
+      "sourceName": "西红柿炒西葫芦",
+      "kind": "veg",
+      "coverFoodId": "tomato",
+      "ingredientIds": [
+        "tomato",
+        "zucchini"
+      ],
+      "ingredients": [
+        "西红柿",
+        "西葫芦"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 25
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_62718834e71c",
+      "name": "凉拌藕片",
+      "sourceName": "凉拌藕片",
+      "kind": "veg",
+      "coverFoodId": "lotus_root",
+      "ingredientIds": [
+        "lotus_root",
+        "pepper_green"
+      ],
+      "ingredients": [
+        "莲藕",
+        "青椒"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 46
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "obesity-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_05832ef2d6d6",
+      "name": "豌豆胡萝卜",
+      "sourceName": "豌豆胡萝卜",
+      "kind": "veg",
+      "coverFoodId": "carrot",
+      "ingredientIds": [
+        "carrot"
+      ],
+      "ingredients": [
+        "豌豆",
+        "胡萝卜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_1b0473f93195",
+      "name": "凉拌芹菜",
+      "sourceName": "凉拌芹菜",
+      "kind": "veg",
+      "coverFoodId": "celery",
+      "ingredientIds": [
+        "celery"
+      ],
+      "ingredients": [
+        "芹菜",
+        "花生"
+      ],
+      "allergens": [
+        "nuts"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 22
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "obesity-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_7f8e11aa859a",
+      "name": "凉拌芹菜丝",
+      "sourceName": "凉拌芹菜丝",
+      "kind": "veg",
+      "coverFoodId": "celery",
+      "ingredientIds": [
+        "celery"
+      ],
+      "ingredients": [
+        "芹菜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 23
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_94cb0cf1ed1e",
+      "name": "蒜蓉油麦菜",
+      "sourceName": "蒜蓉油麦菜",
+      "kind": "veg",
+      "coverFoodId": "lettuce",
+      "ingredientIds": [
+        "lettuce"
+      ],
+      "ingredients": [
+        "油麦菜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 26
+        },
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 30
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "obesity-guide-2024",
+        "lipids-guide-2023",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_6ddc25f3aa85",
+      "name": "炝拌白菜",
+      "sourceName": "炝拌白菜",
+      "kind": "veg",
+      "coverFoodId": "cabbage",
+      "ingredientIds": [
+        "cabbage"
+      ],
+      "ingredients": [
+        "大白菜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 40
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_92fbb2147594",
+      "name": "小炒素三鲜",
+      "sourceName": "小炒素三鲜",
+      "kind": "veg",
+      "coverFoodId": "celery",
+      "ingredientIds": [
+        "celery"
+      ],
+      "ingredients": [
+        "白玉菇",
+        "木耳",
+        "芹菜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "method": "stirfry",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 21
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "obesity-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_e233a13a49e5",
+      "name": "米饭",
+      "sourceName": "米饭",
+      "kind": "staple",
+      "coverFoodId": "rice_white",
+      "ingredientIds": [
+        "rice_white"
+      ],
+      "ingredients": [
+        "大米"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_f3fd2839635e",
+      "name": "二米饭",
+      "sourceName": "二米饭",
+      "kind": "staple",
+      "coverFoodId": "rice_mixed",
+      "ingredientIds": [
+        "rice_white",
+        "congee_millet",
+        "rice_mixed"
+      ],
+      "ingredients": [
+        "大米",
+        "小米"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_3180d0c3d5e4",
+      "name": "糙米饭",
+      "sourceName": "糙米饭",
+      "kind": "staple",
+      "coverFoodId": "rice_mixed",
+      "ingredientIds": [
+        "rice_mixed",
+        "rice_white"
+      ],
+      "ingredients": [
+        "糙米",
+        "大米",
+        "黑豆"
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 19
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "obesity-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_ec514fc4ef32",
+      "name": "燕麦米饭",
+      "sourceName": "燕麦米饭",
+      "kind": "staple",
+      "coverFoodId": "rice_white",
+      "ingredientIds": [
+        "rice_white",
+        "oats"
+      ],
+      "ingredients": [
+        "大米",
+        "燕麦"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 20
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_a94852a42b13",
+      "name": "玉米饭",
+      "sourceName": "玉米饭",
+      "kind": "staple",
+      "coverFoodId": "rice_white",
+      "ingredientIds": [
+        "rice_white",
+        "corn"
+      ],
+      "ingredients": [
+        "大米",
+        "玉米"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_94f7090c13c6",
+      "name": "紫薯饭",
+      "sourceName": "紫薯饭",
+      "kind": "staple",
+      "coverFoodId": "sweet_potato",
+      "ingredientIds": [
+        "sweet_potato",
+        "rice_white"
+      ],
+      "ingredients": [
+        "紫薯",
+        "大米"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 23
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_51e303941014",
+      "name": "南瓜饭",
+      "sourceName": "南瓜饭",
+      "kind": "staple",
+      "coverFoodId": "pumpkin",
+      "ingredientIds": [
+        "pumpkin",
+        "rice_white"
+      ],
+      "ingredients": [
+        "南瓜",
+        "大米"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 25
+        }
+      ],
+      "relatedSources": [
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_36bb2955a563",
+      "name": "蒸南瓜",
+      "sourceName": "蒸南瓜",
+      "kind": "staple",
+      "coverFoodId": "pumpkin",
+      "ingredientIds": [
+        "pumpkin"
+      ],
+      "ingredients": [
+        "南瓜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "steam",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 25
+        },
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 32
+        },
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 32
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_35f570025998",
+      "name": "蒸红薯",
+      "sourceName": "蒸红薯",
+      "kind": "staple",
+      "coverFoodId": "sweet_potato",
+      "ingredientIds": [
+        "sweet_potato"
+      ],
+      "ingredients": [
+        "红薯"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "steam",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 22
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_107ad59b9cbd",
+      "name": "蒸山药",
+      "sourceName": "蒸山药",
+      "kind": "staple",
+      "coverFoodId": "yam",
+      "ingredientIds": [
+        "yam"
+      ],
+      "ingredients": [
+        "山药"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "steam",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 49
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_c7e10c6f3b66",
+      "name": "煮玉米",
+      "sourceName": "煮玉米",
+      "kind": "staple",
+      "coverFoodId": "corn",
+      "ingredientIds": [
+        "corn"
+      ],
+      "ingredients": [
+        "玉米"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "steam",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 30
+        },
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_d2283ad932b8",
+      "name": "全麦面包",
+      "sourceName": "全麦面包",
+      "kind": "staple",
+      "coverFoodId": "bread_whole",
+      "ingredientIds": [
+        "bread_whole"
+      ],
+      "ingredients": [
+        "全麦面粉",
+        "高筋面粉"
+      ],
+      "allergens": [
+        "wheat"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 39
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "lipids-guide-2023",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_125341a38426",
+      "name": "全麦面包片",
+      "sourceName": "全麦面包片",
+      "kind": "staple",
+      "coverFoodId": "bread_whole",
+      "ingredientIds": [
+        "bread_whole"
+      ],
+      "ingredients": [
+        "全麦面包片"
+      ],
+      "allergens": [
+        "wheat"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 22
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_918cfd6b6241",
+      "name": "玉米面馒头",
+      "sourceName": "玉米面馒头",
+      "kind": "staple",
+      "coverFoodId": "corn",
+      "ingredientIds": [
+        "corn"
+      ],
+      "ingredients": [
+        "玉米面粉",
+        "面粉"
+      ],
+      "allergens": [
+        "wheat"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 23
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "lipids-guide-2023",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_1e36db5d477e",
+      "name": "燕麦馒头",
+      "sourceName": "燕麦馒头",
+      "kind": "staple",
+      "coverFoodId": "oats",
+      "ingredientIds": [
+        "oats"
+      ],
+      "ingredients": [
+        "面粉",
+        "燕麦"
+      ],
+      "allergens": [
+        "wheat"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 19
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_e13585c6f55c",
+      "name": "紫薯馒头",
+      "sourceName": "紫薯馒头",
+      "kind": "staple",
+      "coverFoodId": "sweet_potato",
+      "ingredientIds": [
+        "sweet_potato"
+      ],
+      "ingredients": [
+        "紫薯",
+        "面粉"
+      ],
+      "allergens": [
+        "wheat"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "obesity-guide-2024",
+        "lipids-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_04e983910437",
+      "name": "馒头",
+      "sourceName": "馒头",
+      "kind": "staple",
+      "coverFoodId": "noodle",
+      "ingredientIds": [
+        "noodle"
+      ],
+      "ingredients": [
+        "面粉"
+      ],
+      "allergens": [
+        "wheat"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 25
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "obesity-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_186bc838ad77",
+      "name": "双色花卷",
+      "sourceName": "双色花卷",
+      "kind": "staple",
+      "coverFoodId": "noodle",
+      "ingredientIds": [
+        "pumpkin",
+        "noodle"
+      ],
+      "ingredients": [
+        "面粉",
+        "南瓜"
+      ],
+      "allergens": [
+        "wheat"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 25
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "lipids-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_6b180818e737",
+      "name": "蔬菜面",
+      "sourceName": "蔬菜面",
+      "kind": "staple",
+      "coverFoodId": "noodle",
+      "ingredientIds": [
+        "noodle",
+        "bok_choy"
+      ],
+      "ingredients": [
+        "面条",
+        "菜心"
+      ],
+      "allergens": [
+        "wheat"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 23
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_3d0ab947c3ed",
+      "name": "荞麦面条",
+      "sourceName": "荞麦面条",
+      "kind": "staple",
+      "coverFoodId": "noodle",
+      "ingredientIds": [
+        "noodle"
+      ],
+      "ingredients": [
+        "荞麦面粉",
+        "高筋面粉"
+      ],
+      "allergens": [
+        "wheat"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "lipids-guide-2023",
+          "page": 22
+        }
+      ],
+      "relatedSources": [
+        "lipids-guide-2023",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_a036f0e0efe6",
+      "name": "山药鸡蛋面",
+      "sourceName": "山药鸡蛋面",
+      "kind": "staple",
+      "coverFoodId": "yam",
+      "ingredientIds": [
+        "yam",
+        "egg",
+        "noodle"
+      ],
+      "ingredients": [
+        "山药",
+        "鸡蛋",
+        "面条"
+      ],
+      "allergens": [
+        "egg",
+        "wheat"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_b949cede39d8",
+      "name": "鸡蛋饼",
+      "sourceName": "鸡蛋饼",
+      "kind": "staple",
+      "coverFoodId": "corn",
+      "ingredientIds": [
+        "egg",
+        "corn"
+      ],
+      "ingredients": [
+        "葱",
+        "鸡蛋",
+        "玉米面"
+      ],
+      "allergens": [
+        "egg",
+        "wheat"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_da0c2e96f8fd",
+      "name": "蔬菜饼",
+      "sourceName": "蔬菜饼",
+      "kind": "staple",
+      "coverFoodId": "noodle",
+      "ingredientIds": [
+        "broccoli",
+        "noodle"
+      ],
+      "ingredients": [
+        "面粉",
+        "西兰花"
+      ],
+      "allergens": [
+        "wheat"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 20
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "obesity-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_852e07e477b7",
+      "name": "窝头",
+      "sourceName": "窝头",
+      "kind": "staple",
+      "coverFoodId": "corn",
+      "ingredientIds": [
+        "corn"
+      ],
+      "ingredients": [
+        "玉米面"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 25
+        }
+      ],
+      "relatedSources": [
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_92f52a38180c",
+      "name": "脱脂牛奶",
+      "sourceName": "脱脂牛奶",
+      "kind": "dairy",
+      "coverFoodId": "milk_lowfat",
+      "ingredientIds": [
+        "milk_lowfat"
+      ],
+      "ingredients": [
+        "脱脂牛奶"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 23
+        },
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 35
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "lipids-guide-2023",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_7c2a1ad2910b",
+      "name": "低脂牛奶",
+      "sourceName": "低脂牛奶",
+      "kind": "dairy",
+      "coverFoodId": "milk_lowfat",
+      "ingredientIds": [
+        "milk_lowfat"
+      ],
+      "ingredients": [
+        "低脂牛奶"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 23
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_eef87ca850cf",
+      "name": "无糖酸奶",
+      "sourceName": "无糖酸奶",
+      "kind": "dairy",
+      "coverFoodId": "yogurt_plain",
+      "ingredientIds": [
+        "yogurt_plain"
+      ],
+      "ingredients": [
+        "无糖酸奶"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 30
+        },
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 23
+        },
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 25
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_9fc2445d1607",
+      "name": "无糖豆浆",
+      "sourceName": "无糖豆浆",
+      "kind": "dairy",
+      "coverFoodId": "soy_milk",
+      "ingredientIds": [
+        "soy_milk"
+      ],
+      "ingredients": [
+        "无糖豆浆"
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 23
+        }
+      ],
+      "relatedSources": [
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_9c61c36d4df7",
+      "name": "豆浆",
+      "sourceName": "豆浆",
+      "kind": "dairy",
+      "coverFoodId": "soy_milk",
+      "ingredientIds": [
+        "soy_milk"
+      ],
+      "ingredients": [
+        "豆浆"
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 20
+        },
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 37
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_b892a42b9695",
+      "name": "牛奶",
+      "sourceName": "牛奶",
+      "kind": "dairy",
+      "coverFoodId": "milk_lowfat",
+      "ingredientIds": [
+        "milk_lowfat"
+      ],
+      "ingredients": [
+        "牛奶"
+      ],
+      "allergens": [
+        "milk"
+      ],
+      "containsAnimalMeat": false,
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 19
+        },
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 23
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_50537dab7650",
+      "name": "苹果",
+      "sourceName": "苹果",
+      "kind": "fruit",
+      "coverFoodId": "apple",
+      "ingredientIds": [
+        "apple"
+      ],
+      "ingredients": [
+        "苹果"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "snack"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 31
+        },
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 20
+        },
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 22
+        },
+        {
+          "sourceId": "lipids-guide-2023",
+          "page": 22
+        },
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 25
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "lipids-guide-2023",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_a5a79a17f934",
+      "name": "梨",
+      "sourceName": "梨",
+      "kind": "fruit",
+      "coverFoodId": "pear",
+      "ingredientIds": [
+        "pear"
+      ],
+      "ingredients": [
+        "梨"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "snack"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 27
+        },
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 37
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_9959c870a173",
+      "name": "鸭梨",
+      "sourceName": "鸭梨",
+      "kind": "fruit",
+      "coverFoodId": "pear",
+      "ingredientIds": [
+        "pear"
+      ],
+      "ingredients": [
+        "鸭梨"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "snack"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 20
+        },
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 23
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "obesity-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_dbf9f9c94fc9",
+      "name": "香蕉",
+      "sourceName": "香蕉",
+      "kind": "fruit",
+      "coverFoodId": "banana",
+      "ingredientIds": [
+        "banana"
+      ],
+      "ingredients": [
+        "香蕉"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "snack"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 20
+        }
+      ],
+      "relatedSources": [
+        "hypertension-guide-2023",
+        "obesity-guide-2024"
+      ]
+    },
+    {
+      "id": "guide_9f1aa4ba71d8",
+      "name": "樱桃",
+      "sourceName": "樱桃",
+      "kind": "fruit",
+      "coverFoodId": "cherry",
+      "ingredientIds": [
+        "cherry"
+      ],
+      "ingredients": [
+        "樱桃"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "snack"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 24
+        },
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 23
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_d23250b7c80a",
+      "name": "蓝莓",
+      "sourceName": "蓝莓",
+      "kind": "fruit",
+      "coverFoodId": "blueberry",
+      "ingredientIds": [
+        "blueberry"
+      ],
+      "ingredients": [
+        "蓝莓"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "snack"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_c8d3209aaa4a",
+      "name": "橙子",
+      "sourceName": "橙子",
+      "kind": "fruit",
+      "coverFoodId": "orange",
+      "ingredientIds": [
+        "orange"
+      ],
+      "ingredients": [
+        "橙子"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "snack"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 28
+        },
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 23
+        },
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 26
+        },
+        {
+          "sourceId": "lipids-guide-2023",
+          "page": 22
+        },
+        {
+          "sourceId": "glucose-guide-2023",
+          "page": 27
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "lipids-guide-2023",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_d8816dfefa54",
+      "name": "橘子",
+      "sourceName": "橘子",
+      "kind": "fruit",
+      "coverFoodId": "orange",
+      "ingredientIds": [
+        "orange"
+      ],
+      "ingredients": [
+        "橘子"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "snack"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 26
+        },
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 22
+        },
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 28
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_ae86f9a1daef",
+      "name": "葡萄",
+      "sourceName": "葡萄",
+      "kind": "fruit",
+      "coverFoodId": "grape",
+      "ingredientIds": [
+        "grape"
+      ],
+      "ingredients": [
+        "葡萄"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "snack"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 34
+        },
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 21
+        },
+        {
+          "sourceId": "lipids-guide-2023",
+          "page": 30
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "lipids-guide-2023",
+        "glucose-guide-2023"
+      ]
+    },
+    {
+      "id": "guide_3e3f03caa043",
+      "name": "西瓜",
+      "sourceName": "西瓜",
+      "kind": "fruit",
+      "coverFoodId": "watermelon",
+      "ingredientIds": [
+        "watermelon"
+      ],
+      "ingredients": [
+        "西瓜"
+      ],
+      "allergens": [],
+      "containsAnimalMeat": false,
+      "slots": [
+        "snack"
+      ],
+      "method": "mixed",
+      "sourceRefs": [
+        {
+          "sourceId": "gout-guide-2024",
+          "page": 39
+        },
+        {
+          "sourceId": "hypertension-guide-2023",
+          "page": 22
+        },
+        {
+          "sourceId": "obesity-guide-2024",
+          "page": 24
+        }
+      ],
+      "relatedSources": [
+        "gout-guide-2024",
+        "hypertension-guide-2023",
+        "obesity-guide-2024",
+        "glucose-guide-2023"
+      ]
+    }
+  ]
+}

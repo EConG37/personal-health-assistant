@@ -1,0 +1,15 @@
+{
+  "revision": "r5",
+  "schema_version": "2.0.0",
+  "reference_file": "health-ingredient-reference-r5.json",
+  "sha256": "72f139fa276660ad3303930e46749c4a7577279d9633a67515ad7c6088c16420",
+  "basis_note": "食材数据基准说明.md",
+  "summary": "ingredient-research-summary-r5.md",
+  "change_log": "ingredient-research-change-log-r5.md",
+  "status": "research_reference_only",
+  "review_status": "not_clinically_reviewed",
+  "runtime_integrated": false,
+  "excluded_candidate_files": [
+    "ingredient-research-unverified-candidates-r2.json"
+  ]
+}

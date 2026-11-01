@@ -1,0 +1,1105 @@
+{
+  "evidence": [
+    {
+      "id": "guide_d8013dbfc994",
+      "name": "番茄炒蛋",
+      "sourceName": "西红柿炒鸡蛋",
+      "canonical": {
+        "name": "西红柿炒鸡蛋",
+        "raw": "西红柿100g，鸡蛋30g",
+        "pdf": "gout-guide-2024",
+        "page": 38
+      }
+    },
+    {
+      "id": "guide_23818dab98a6",
+      "name": "西葫芦炒鸡蛋",
+      "sourceName": "西葫芦炒鸡蛋",
+      "canonical": {
+        "name": "西葫芦炒鸡蛋",
+        "raw": "西葫芦100g，鸡蛋30g",
+        "pdf": "gout-guide-2024",
+        "page": 23
+      }
+    },
+    {
+      "id": "guide_44e2c655e884",
+      "name": "韭菜炒鸡蛋",
+      "sourceName": "韭菜炒鸡蛋",
+      "canonical": {
+        "name": "韭菜炒鸡蛋",
+        "raw": "韭菜50g，鸡蛋50g",
+        "pdf": "glucose-guide-2023",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_bc59a6cd132a",
+      "name": "青椒炒肉丝",
+      "sourceName": "青椒炒肉丝",
+      "canonical": {
+        "name": "青椒炒肉丝",
+        "raw": "柿子椒100g，猪瘦肉50g",
+        "pdf": "gout-guide-2024",
+        "page": 23
+      }
+    },
+    {
+      "id": "guide_4f4a9dc58bbe",
+      "name": "芹菜炒肉丝",
+      "sourceName": "芹菜炒肉丝",
+      "canonical": {
+        "name": "芹菜炒肉丝",
+        "raw": "西芹100g，猪瘦肉50g",
+        "pdf": "gout-guide-2024",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_8a4f44e21fd9",
+      "name": "芹菜炒鸡丝",
+      "sourceName": "芹菜炒鸡丝",
+      "canonical": {
+        "name": "芹菜炒鸡丝",
+        "raw": "芹菜100g，去皮鸡肉50g",
+        "pdf": "gout-guide-2024",
+        "page": 26
+      }
+    },
+    {
+      "id": "guide_c88d53578226",
+      "name": "西兰花炒鸡胸肉",
+      "sourceName": "西兰花炒鸡胸肉",
+      "canonical": {
+        "name": "西兰花炒鸡胸肉",
+        "raw": "西兰花50g，鸡胸肉20g",
+        "pdf": "glucose-guide-2023",
+        "page": 25
+      }
+    },
+    {
+      "id": "guide_8b735eae97a9",
+      "name": "西兰花炒肉片",
+      "sourceName": "西兰花炒肉片",
+      "canonical": {
+        "name": "西兰花炒肉片",
+        "raw": "西兰花100g，牛瘦肉50g",
+        "pdf": "gout-guide-2024",
+        "page": 25
+      }
+    },
+    {
+      "id": "guide_98da3f29f1ea",
+      "name": "木耳炒鸡胸肉",
+      "sourceName": "木耳炒鸡胸肉",
+      "canonical": {
+        "name": "木耳炒鸡胸肉",
+        "raw": "鸡胸肉30g，木耳5g，豆角100g",
+        "pdf": "lipids-guide-2023",
+        "page": 27
+      }
+    },
+    {
+      "id": "guide_8143405da811",
+      "name": "西红柿炖牛肉",
+      "sourceName": "西红柿炖牛肉",
+      "canonical": {
+        "name": "西红柿炖牛肉",
+        "raw": "西红柿100g，牛瘦肉50g，豆腐30g",
+        "pdf": "gout-guide-2024",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_0199fe784963",
+      "name": "洋葱西红柿烩牛肉",
+      "sourceName": "洋葱西红柿烩牛肉",
+      "canonical": {
+        "name": "洋葱西红柿烩牛肉",
+        "raw": "洋葱20g，牛肉80g，土豆50g，西红柿100g",
+        "pdf": "lipids-guide-2023",
+        "page": 22
+      }
+    },
+    {
+      "id": "guide_60129c8a1818",
+      "name": "胡萝卜炖牛肉",
+      "sourceName": "胡萝卜炖牛肉",
+      "canonical": {
+        "name": "胡萝卜炖牛肉",
+        "raw": "牛肉70g，胡萝卜100g",
+        "pdf": "hypertension-guide-2023",
+        "page": 19
+      }
+    },
+    {
+      "id": "guide_c71a12ec6531",
+      "name": "土豆炖牛肉",
+      "sourceName": "土豆炖牛肉",
+      "canonical": {
+        "name": "土豆炖牛肉",
+        "raw": "土豆100g，洋葱10g，牛肉50g",
+        "pdf": "hypertension-guide-2023",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_5011c602c4e9",
+      "name": "清蒸鲈鱼",
+      "sourceName": "清蒸鲈鱼",
+      "canonical": {
+        "name": "清蒸鲈鱼",
+        "raw": "鲈鱼100g",
+        "pdf": "hypertension-guide-2023",
+        "page": 20
+      }
+    },
+    {
+      "id": "guide_59c902a34c24",
+      "name": "水煮鸡胸肉",
+      "sourceName": "水煮鸡胸肉",
+      "canonical": {
+        "name": "水煮鸡胸肉",
+        "raw": "65g",
+        "pdf": "glucose-guide-2023",
+        "page": 26
+      }
+    },
+    {
+      "id": "guide_30ff853ff163",
+      "name": "虾仁炒西葫芦",
+      "sourceName": "虾仁炒西葫芦",
+      "canonical": {
+        "name": "虾仁炒西葫芦",
+        "raw": "虾仁40g，西葫芦50g",
+        "pdf": "glucose-guide-2023",
+        "page": 25
+      }
+    },
+    {
+      "id": "guide_4a0b1449634b",
+      "name": "虾仁炒黄瓜",
+      "sourceName": "虾仁炒黄瓜",
+      "canonical": {
+        "name": "虾仁炒黄瓜",
+        "raw": "黄瓜20g，虾仁40g",
+        "pdf": "glucose-guide-2023",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_2ba46f61d02b",
+      "name": "小葱拌豆腐",
+      "sourceName": "小葱拌豆腐",
+      "canonical": {
+        "name": "小葱拌豆腐",
+        "raw": "小葱20g，豆腐50g",
+        "pdf": "obesity-guide-2024",
+        "page": 23
+      }
+    },
+    {
+      "id": "guide_07afe157da47",
+      "name": "青椒豆干",
+      "sourceName": "青椒豆干",
+      "canonical": {
+        "name": "青椒豆干",
+        "raw": "青椒50g，豆腐干40g",
+        "pdf": "glucose-guide-2023",
+        "page": 25
+      }
+    },
+    {
+      "id": "guide_b147eac1cf73",
+      "name": "芦笋豆腐干",
+      "sourceName": "芦笋豆腐干",
+      "canonical": {
+        "name": "芦笋豆腐干",
+        "raw": "芦笋100g，豆腐干30g，口蘑10g",
+        "pdf": "lipids-guide-2023",
+        "page": 22
+      }
+    },
+    {
+      "id": "guide_ce1773ae433a",
+      "name": "香干莴笋",
+      "sourceName": "香干莴笋",
+      "canonical": {
+        "name": "香干莴笋",
+        "raw": "莴笋150g，豆腐干50g",
+        "pdf": "gout-guide-2024",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_ffcf28d3fd92",
+      "name": "滑炒鸡片",
+      "sourceName": "滑炒鸡片",
+      "canonical": {
+        "name": "滑炒鸡片",
+        "raw": "鸡肉40g，淀粉2g，葱1段，生姜*1片",
+        "pdf": "lipids-guide-2023",
+        "page": 25
+      }
+    },
+    {
+      "id": "guide_1e404344db5e",
+      "name": "豆干肉丝",
+      "sourceName": "豆干肉丝",
+      "canonical": {
+        "name": "豆干肉丝",
+        "raw": "豆腐干20g，胡萝卜30g，猪瘦肉40g",
+        "pdf": "lipids-guide-2023",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_3ef61f82d427",
+      "name": "鸡丝芦笋",
+      "sourceName": "鸡丝芦笋",
+      "canonical": {
+        "name": "鸡丝芦笋",
+        "raw": "鸡胸肉50g，芦笋100g",
+        "pdf": "hypertension-guide-2023",
+        "page": 49
+      }
+    },
+    {
+      "id": "guide_e376c03a3687",
+      "name": "鸡片炒油菜",
+      "sourceName": "鸡片炒油菜",
+      "canonical": {
+        "name": "鸡片炒油菜",
+        "raw": "鸡胸肉20g，油菜50g",
+        "pdf": "glucose-guide-2023",
+        "page": 23
+      }
+    },
+    {
+      "id": "guide_d944ea860346",
+      "name": "蘑菇炒肉",
+      "sourceName": "蘑菇炒肉",
+      "canonical": {
+        "name": "蘑菇炒肉",
+        "raw": "香菇50g，油菜50g，牛肉25g",
+        "pdf": "glucose-guide-2023",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_8afa20d8aefa",
+      "name": "尖椒炒肉",
+      "sourceName": "尖椒炒肉",
+      "canonical": {
+        "name": "尖椒炒肉",
+        "raw": "尖椒100g，猪里脊肉30g",
+        "pdf": "obesity-guide-2024",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_bb97a878a861",
+      "name": "煮鸡蛋",
+      "sourceName": "煮鸡蛋",
+      "canonical": {
+        "name": "煮鸡蛋",
+        "raw": "鸡蛋50g",
+        "pdf": "gout-guide-2024",
+        "page": 23
+      }
+    },
+    {
+      "id": "guide_763f31ff64f9",
+      "name": "荷包蛋",
+      "sourceName": "荷包蛋",
+      "canonical": {
+        "name": "荷包蛋",
+        "raw": "鸡蛋50g",
+        "pdf": "gout-guide-2024",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_7eaa52bd7588",
+      "name": "凉拌黄瓜",
+      "sourceName": "凉拌黄瓜",
+      "canonical": {
+        "name": "凉拌黄瓜",
+        "raw": "黄瓜100g",
+        "pdf": "gout-guide-2024",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_216e56c65538",
+      "name": "凉拌菠菜",
+      "sourceName": "凉拌菠菜",
+      "canonical": {
+        "name": "凉拌菠菜",
+        "raw": "菠菜100g",
+        "pdf": "hypertension-guide-2023",
+        "page": 20
+      }
+    },
+    {
+      "id": "guide_fcf147eaaec1",
+      "name": "清炒西兰花",
+      "sourceName": "清炒西兰花",
+      "canonical": {
+        "name": "清炒西兰花",
+        "raw": "西兰花160g",
+        "pdf": "hypertension-guide-2023",
+        "page": 46
+      }
+    },
+    {
+      "id": "guide_10703a2e5f11",
+      "name": "蒜蓉西兰花",
+      "sourceName": "蒜蓉西兰花",
+      "canonical": {
+        "name": "蒜蓉西兰花",
+        "raw": "西兰花100g",
+        "pdf": "gout-guide-2024",
+        "page": 31
+      }
+    },
+    {
+      "id": "guide_2f92a22d8d90",
+      "name": "西兰花炒胡萝卜",
+      "sourceName": "西兰花炒胡萝卜",
+      "canonical": {
+        "name": "西兰花炒胡萝卜",
+        "raw": "西兰花150g，胡萝卜60g",
+        "pdf": "hypertension-guide-2023",
+        "page": 34
+      }
+    },
+    {
+      "id": "guide_e1cc7daa379f",
+      "name": "胡萝卜炒西兰花",
+      "sourceName": "胡萝卜炒西兰花",
+      "canonical": {
+        "name": "胡萝卜炒西兰花",
+        "raw": "胡萝卜100g，西兰花100g",
+        "pdf": "lipids-guide-2023",
+        "page": 22
+      }
+    },
+    {
+      "id": "guide_f16acfdd9614",
+      "name": "香菇炒芹菜",
+      "sourceName": "香菇炒芹菜",
+      "canonical": {
+        "name": "香菇炒芹菜",
+        "raw": "芹菜200g，香菇20g，淀粉5g",
+        "pdf": "lipids-guide-2023",
+        "page": 21
+      }
+    },
+    {
+      "id": "guide_f1c4e13bb817",
+      "name": "洋葱炒木耳",
+      "sourceName": "洋葱炒木耳",
+      "canonical": {
+        "name": "洋葱炒木耳",
+        "raw": "洋葱30g，木耳20g，芹菜100g，鸡胸肉60g",
+        "pdf": "lipids-guide-2023",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_56cecb4c85a3",
+      "name": "香菇炒油菜",
+      "sourceName": "香菇炒油菜",
+      "canonical": {
+        "name": "香菇炒油菜",
+        "raw": "香菇50g，油菜100g",
+        "pdf": "hypertension-guide-2023",
+        "page": 29
+      }
+    },
+    {
+      "id": "guide_f9ffbb132de9",
+      "name": "香菇炒菜心",
+      "sourceName": "香菇炒菜心",
+      "canonical": {
+        "name": "香菇炒菜心",
+        "raw": "香菇【鲜】100g，广东菜心50g",
+        "pdf": "obesity-guide-2024",
+        "page": 46
+      }
+    },
+    {
+      "id": "guide_9aef18293df1",
+      "name": "清炒油菜",
+      "sourceName": "清炒油菜",
+      "canonical": {
+        "name": "清炒油菜",
+        "raw": "油菜200g",
+        "pdf": "gout-guide-2024",
+        "page": 26
+      }
+    },
+    {
+      "id": "guide_7c2b7ad8d20e",
+      "name": "素炒小白菜",
+      "sourceName": "素炒小白菜",
+      "canonical": {
+        "name": "素炒小白菜",
+        "raw": "小白菜100g",
+        "pdf": "glucose-guide-2023",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_faab88cf7dcc",
+      "name": "醋熘白菜",
+      "sourceName": "醋熘白菜",
+      "canonical": {
+        "name": "醋熘白菜",
+        "raw": "白菜100g",
+        "pdf": "gout-guide-2024",
+        "page": 23
+      }
+    },
+    {
+      "id": "guide_2ff9ba64f207",
+      "name": "醋溜土豆丝",
+      "sourceName": "醋溜土豆丝",
+      "canonical": {
+        "name": "醋溜土豆丝",
+        "raw": "土豆100g，青椒50g",
+        "pdf": "hypertension-guide-2023",
+        "page": 22
+      }
+    },
+    {
+      "id": "guide_3664442617ff",
+      "name": "蒜泥茄子",
+      "sourceName": "蒜泥茄子",
+      "canonical": {
+        "name": "蒜泥茄子",
+        "raw": "茄子100g",
+        "pdf": "gout-guide-2024",
+        "page": 35
+      }
+    },
+    {
+      "id": "guide_934a1eb5c5b8",
+      "name": "凉拌蒜蓉茄子",
+      "sourceName": "凉拌蒜蓉茄子",
+      "canonical": {
+        "name": "凉拌蒜蓉茄子",
+        "raw": "茄子200g，柿子椒50g",
+        "pdf": "gout-guide-2024",
+        "page": 25
+      }
+    },
+    {
+      "id": "guide_5d84f3b9b153",
+      "name": "素炒三丝",
+      "sourceName": "素炒三丝",
+      "canonical": {
+        "name": "素炒三丝",
+        "raw": "胡萝卜丝50g，黄瓜丝100g、柿子椒50g",
+        "pdf": "gout-guide-2024",
+        "page": 25
+      }
+    },
+    {
+      "id": "guide_52f03d1691e7",
+      "name": "拌紫甘蓝",
+      "sourceName": "拌紫甘蓝",
+      "canonical": {
+        "name": "拌紫甘蓝",
+        "raw": "紫甘蓝100g",
+        "pdf": "gout-guide-2024",
+        "page": 26
+      }
+    },
+    {
+      "id": "guide_a0f7708dfd5e",
+      "name": "蒜蓉娃娃菜",
+      "sourceName": "蒜蓉娃娃菜",
+      "canonical": {
+        "name": "蒜蓉娃娃菜",
+        "raw": "娃娃菜100g",
+        "pdf": "hypertension-guide-2023",
+        "page": 21
+      }
+    },
+    {
+      "id": "guide_93706aae2bb7",
+      "name": "西兰花木耳",
+      "sourceName": "西兰花木耳",
+      "canonical": {
+        "name": "西兰花木耳",
+        "raw": "西兰花80g，木耳25g",
+        "pdf": "glucose-guide-2023",
+        "page": 25
+      }
+    },
+    {
+      "id": "guide_6ecfbc42a3da",
+      "name": "素炒西葫芦",
+      "sourceName": "素炒西葫芦",
+      "canonical": {
+        "name": "素炒西葫芦",
+        "raw": "西葫芦100g",
+        "pdf": "hypertension-guide-2023",
+        "page": 20
+      }
+    },
+    {
+      "id": "guide_c5984478aa18",
+      "name": "芦笋炒香菇",
+      "sourceName": "芦笋炒香菇",
+      "canonical": {
+        "name": "芦笋炒香菇",
+        "raw": "芦笋100g，香菇50g",
+        "pdf": "lipids-guide-2023",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_68fd6775029b",
+      "name": "西红柿炒西葫芦",
+      "sourceName": "西红柿炒西葫芦",
+      "canonical": {
+        "name": "西红柿炒西葫芦",
+        "raw": "西红柿100g，西葫芦200g",
+        "pdf": "gout-guide-2024",
+        "page": 25
+      }
+    },
+    {
+      "id": "guide_62718834e71c",
+      "name": "凉拌藕片",
+      "sourceName": "凉拌藕片",
+      "canonical": {
+        "name": "凉拌藕片",
+        "raw": "莲藕150g，青椒5g",
+        "pdf": "hypertension-guide-2023",
+        "page": 46
+      }
+    },
+    {
+      "id": "guide_05832ef2d6d6",
+      "name": "豌豆胡萝卜",
+      "sourceName": "豌豆胡萝卜",
+      "canonical": {
+        "name": "豌豆胡萝卜",
+        "raw": "豌豆50g，胡萝卜20g",
+        "pdf": "glucose-guide-2023",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_1b0473f93195",
+      "name": "凉拌芹菜",
+      "sourceName": "凉拌芹菜",
+      "canonical": {
+        "name": "凉拌芹菜",
+        "raw": "芹菜100g，花生30g",
+        "pdf": "hypertension-guide-2023",
+        "page": 22
+      }
+    },
+    {
+      "id": "guide_7f8e11aa859a",
+      "name": "凉拌芹菜丝",
+      "sourceName": "凉拌芹菜丝",
+      "canonical": {
+        "name": "凉拌芹菜丝",
+        "raw": "芹菜100g",
+        "pdf": "gout-guide-2024",
+        "page": 23
+      }
+    },
+    {
+      "id": "guide_94cb0cf1ed1e",
+      "name": "蒜蓉油麦菜",
+      "sourceName": "蒜蓉油麦菜",
+      "canonical": {
+        "name": "蒜蓉油麦菜",
+        "raw": "油麦菜100g",
+        "pdf": "gout-guide-2024",
+        "page": 26
+      }
+    },
+    {
+      "id": "guide_6ddc25f3aa85",
+      "name": "炝拌白菜",
+      "sourceName": "炝拌白菜",
+      "canonical": {
+        "name": "炝拌白菜",
+        "raw": "大白菜100g",
+        "pdf": "gout-guide-2024",
+        "page": 40
+      }
+    },
+    {
+      "id": "guide_92fbb2147594",
+      "name": "小炒素三鲜",
+      "sourceName": "小炒素三鲜",
+      "canonical": {
+        "name": "小炒素三鲜",
+        "raw": "白玉菇50g，木耳20g，芹菜50g",
+        "pdf": "hypertension-guide-2023",
+        "page": 21
+      }
+    },
+    {
+      "id": "guide_e233a13a49e5",
+      "name": "米饭",
+      "sourceName": "米饭",
+      "canonical": {
+        "name": "米饭",
+        "raw": "大米80g",
+        "pdf": "hypertension-guide-2023",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_f3fd2839635e",
+      "name": "二米饭",
+      "sourceName": "二米饭",
+      "canonical": {
+        "name": "二米饭",
+        "raw": "大米80g，小米40g",
+        "pdf": "gout-guide-2024",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_3180d0c3d5e4",
+      "name": "糙米饭",
+      "sourceName": "糙米饭",
+      "canonical": {
+        "name": "糙米饭",
+        "raw": "糙米30g，大米20g，黑豆20g",
+        "pdf": "hypertension-guide-2023",
+        "page": 19
+      }
+    },
+    {
+      "id": "guide_ec514fc4ef32",
+      "name": "燕麦米饭",
+      "sourceName": "燕麦米饭",
+      "canonical": {
+        "name": "燕麦米饭",
+        "raw": "大米50g，燕麦25g",
+        "pdf": "hypertension-guide-2023",
+        "page": 20
+      }
+    },
+    {
+      "id": "guide_a94852a42b13",
+      "name": "玉米饭",
+      "sourceName": "玉米饭",
+      "canonical": {
+        "name": "玉米饭",
+        "raw": "大米100g，玉米60g",
+        "pdf": "gout-guide-2024",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_94f7090c13c6",
+      "name": "紫薯饭",
+      "sourceName": "紫薯饭",
+      "canonical": {
+        "name": "紫薯饭",
+        "raw": "紫薯40g，大米50g",
+        "pdf": "gout-guide-2024",
+        "page": 23
+      }
+    },
+    {
+      "id": "guide_51e303941014",
+      "name": "南瓜饭",
+      "sourceName": "南瓜饭",
+      "canonical": {
+        "name": "南瓜饭",
+        "raw": "南瓜70g，大米50g",
+        "pdf": "glucose-guide-2023",
+        "page": 25
+      }
+    },
+    {
+      "id": "guide_36bb2955a563",
+      "name": "蒸南瓜",
+      "sourceName": "蒸南瓜",
+      "canonical": {
+        "name": "蒸南瓜",
+        "raw": "南瓜100g",
+        "pdf": "gout-guide-2024",
+        "page": 25
+      }
+    },
+    {
+      "id": "guide_35f570025998",
+      "name": "蒸红薯",
+      "sourceName": "蒸红薯",
+      "canonical": {
+        "name": "蒸红薯",
+        "raw": "红薯100g",
+        "pdf": "hypertension-guide-2023",
+        "page": 22
+      }
+    },
+    {
+      "id": "guide_107ad59b9cbd",
+      "name": "蒸山药",
+      "sourceName": "蒸山药",
+      "canonical": {
+        "name": "蒸山药",
+        "raw": "山药*150g",
+        "pdf": "hypertension-guide-2023",
+        "page": 49
+      }
+    },
+    {
+      "id": "guide_c7e10c6f3b66",
+      "name": "煮玉米",
+      "sourceName": "煮玉米",
+      "canonical": {
+        "name": "煮玉米",
+        "raw": "玉米200g",
+        "pdf": "hypertension-guide-2023",
+        "page": 30
+      }
+    },
+    {
+      "id": "guide_d2283ad932b8",
+      "name": "全麦面包",
+      "sourceName": "全麦面包",
+      "canonical": {
+        "name": "全麦面包",
+        "raw": "全麦面粉30g，高筋面粉40g",
+        "pdf": "gout-guide-2024",
+        "page": 39
+      }
+    },
+    {
+      "id": "guide_125341a38426",
+      "name": "全麦面包片",
+      "sourceName": "全麦面包片",
+      "canonical": {
+        "name": "全麦面包片",
+        "raw": "50g",
+        "pdf": "hypertension-guide-2023",
+        "page": 22
+      }
+    },
+    {
+      "id": "guide_918cfd6b6241",
+      "name": "玉米面馒头",
+      "sourceName": "玉米面馒头",
+      "canonical": {
+        "name": "玉米面馒头",
+        "raw": "玉米面粉30g，面粉40g",
+        "pdf": "gout-guide-2024",
+        "page": 23
+      }
+    },
+    {
+      "id": "guide_1e36db5d477e",
+      "name": "燕麦馒头",
+      "sourceName": "燕麦馒头",
+      "canonical": {
+        "name": "燕麦馒头",
+        "raw": "面粉50g，燕麦20g",
+        "pdf": "hypertension-guide-2023",
+        "page": 19
+      }
+    },
+    {
+      "id": "guide_e13585c6f55c",
+      "name": "紫薯馒头",
+      "sourceName": "紫薯馒头",
+      "canonical": {
+        "name": "紫薯馒头",
+        "raw": "紫薯30g，面粉60g",
+        "pdf": "gout-guide-2024",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_04e983910437",
+      "name": "馒头",
+      "sourceName": "馒头",
+      "canonical": {
+        "name": "馒头",
+        "raw": "面粉80g",
+        "pdf": "hypertension-guide-2023",
+        "page": 25
+      }
+    },
+    {
+      "id": "guide_186bc838ad77",
+      "name": "双色花卷",
+      "sourceName": "双色花卷",
+      "canonical": {
+        "name": "双色花卷",
+        "raw": "面粉70g，南瓜60g",
+        "pdf": "gout-guide-2024",
+        "page": 25
+      }
+    },
+    {
+      "id": "guide_6b180818e737",
+      "name": "蔬菜面",
+      "sourceName": "蔬菜面",
+      "canonical": {
+        "name": "蔬菜面",
+        "raw": "面条70g，菜心100g",
+        "pdf": "gout-guide-2024",
+        "page": 23
+      }
+    },
+    {
+      "id": "guide_3d0ab947c3ed",
+      "name": "荞麦面条",
+      "sourceName": "荞麦面条",
+      "canonical": {
+        "name": "荞麦面条",
+        "raw": "荞麦面粉40g，高筋面粉40g",
+        "pdf": "lipids-guide-2023",
+        "page": 22
+      }
+    },
+    {
+      "id": "guide_a036f0e0efe6",
+      "name": "山药鸡蛋面",
+      "sourceName": "山药鸡蛋面",
+      "canonical": {
+        "name": "山药鸡蛋面",
+        "raw": "山药*50g，鸡蛋50g，面条80g",
+        "pdf": "glucose-guide-2023",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_b949cede39d8",
+      "name": "鸡蛋饼",
+      "sourceName": "鸡蛋饼",
+      "canonical": {
+        "name": "鸡蛋饼",
+        "raw": "葱30g，鸡蛋80g，玉米面75g",
+        "pdf": "glucose-guide-2023",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_da0c2e96f8fd",
+      "name": "蔬菜饼",
+      "sourceName": "蔬菜饼",
+      "canonical": {
+        "name": "蔬菜饼",
+        "raw": "面粉50g，西兰花50g",
+        "pdf": "hypertension-guide-2023",
+        "page": 20
+      }
+    },
+    {
+      "id": "guide_852e07e477b7",
+      "name": "窝头",
+      "sourceName": "窝头",
+      "canonical": {
+        "name": "窝头",
+        "raw": "玉米面70g",
+        "pdf": "glucose-guide-2023",
+        "page": 25
+      }
+    },
+    {
+      "id": "guide_92f52a38180c",
+      "name": "脱脂牛奶",
+      "sourceName": "脱脂牛奶",
+      "canonical": {
+        "name": "脱脂牛奶",
+        "raw": "300mL",
+        "pdf": "gout-guide-2024",
+        "page": 23
+      }
+    },
+    {
+      "id": "guide_7c2a1ad2910b",
+      "name": "低脂牛奶",
+      "sourceName": "低脂牛奶",
+      "canonical": {
+        "name": "低脂牛奶",
+        "raw": "300mL",
+        "pdf": "gout-guide-2024",
+        "page": 23
+      }
+    },
+    {
+      "id": "guide_eef87ca850cf",
+      "name": "无糖酸奶",
+      "sourceName": "无糖酸奶",
+      "canonical": {
+        "name": "无糖酸奶",
+        "raw": "100g",
+        "pdf": "hypertension-guide-2023",
+        "page": 30
+      }
+    },
+    {
+      "id": "guide_9fc2445d1607",
+      "name": "无糖豆浆",
+      "sourceName": "无糖豆浆",
+      "canonical": {
+        "name": "无糖豆浆",
+        "raw": "250mL",
+        "pdf": "obesity-guide-2024",
+        "page": 23
+      }
+    },
+    {
+      "id": "guide_9c61c36d4df7",
+      "name": "豆浆",
+      "sourceName": "豆浆",
+      "canonical": {
+        "name": "豆浆",
+        "raw": "250ml",
+        "pdf": "hypertension-guide-2023",
+        "page": 20
+      }
+    },
+    {
+      "id": "guide_b892a42b9695",
+      "name": "牛奶",
+      "sourceName": "牛奶",
+      "canonical": {
+        "name": "牛奶",
+        "raw": "250ml",
+        "pdf": "hypertension-guide-2023",
+        "page": 19
+      }
+    },
+    {
+      "id": "guide_50537dab7650",
+      "name": "苹果",
+      "sourceName": "苹果",
+      "canonical": {
+        "name": "苹果",
+        "raw": "200g",
+        "pdf": "gout-guide-2024",
+        "page": 31
+      }
+    },
+    {
+      "id": "guide_a5a79a17f934",
+      "name": "梨",
+      "sourceName": "梨",
+      "canonical": {
+        "name": "梨",
+        "raw": "200g",
+        "pdf": "gout-guide-2024",
+        "page": 27
+      }
+    },
+    {
+      "id": "guide_9959c870a173",
+      "name": "鸭梨",
+      "sourceName": "鸭梨",
+      "canonical": {
+        "name": "鸭梨",
+        "raw": "200g",
+        "pdf": "hypertension-guide-2023",
+        "page": 20
+      }
+    },
+    {
+      "id": "guide_dbf9f9c94fc9",
+      "name": "香蕉",
+      "sourceName": "香蕉",
+      "canonical": {
+        "name": "香蕉",
+        "raw": "200g",
+        "pdf": "hypertension-guide-2023",
+        "page": 20
+      }
+    },
+    {
+      "id": "guide_9f1aa4ba71d8",
+      "name": "樱桃",
+      "sourceName": "樱桃",
+      "canonical": {
+        "name": "樱桃",
+        "raw": "200g",
+        "pdf": "gout-guide-2024",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_d23250b7c80a",
+      "name": "蓝莓",
+      "sourceName": "蓝莓",
+      "canonical": {
+        "name": "蓝莓",
+        "raw": "100g",
+        "pdf": "glucose-guide-2023",
+        "page": 24
+      }
+    },
+    {
+      "id": "guide_c8d3209aaa4a",
+      "name": "橙子",
+      "sourceName": "橙子",
+      "canonical": {
+        "name": "橙子",
+        "raw": "200g",
+        "pdf": "gout-guide-2024",
+        "page": 28
+      }
+    },
+    {
+      "id": "guide_d8816dfefa54",
+      "name": "橘子",
+      "sourceName": "橘子",
+      "canonical": {
+        "name": "橘子",
+        "raw": "200g",
+        "pdf": "gout-guide-2024",
+        "page": 26
+      }
+    },
+    {
+      "id": "guide_ae86f9a1daef",
+      "name": "葡萄",
+      "sourceName": "葡萄",
+      "canonical": {
+        "name": "葡萄",
+        "raw": "200g",
+        "pdf": "gout-guide-2024",
+        "page": 34
+      }
+    },
+    {
+      "id": "guide_3e3f03caa043",
+      "name": "西瓜",
+      "sourceName": "西瓜",
+      "canonical": {
+        "name": "西瓜",
+        "raw": "200g",
+        "pdf": "gout-guide-2024",
+        "page": 39
+      }
+    }
+  ],
+  "unmatched": [
+    "黄瓜炒鸡蛋",
+    "清炒芥兰（缺少图片关联）",
+    "白灼芥兰（缺少图片关联）",
+    "清炒苦瓜（缺少图片关联）",
+    "木耳炒菜花（缺少图片关联）",
+    "白灼菜花（缺少图片关联）",
+    "清炒空心菜（缺少图片关联）",
+    "桃（缺少图片关联）",
+    "桃子（缺少图片关联）",
+    "猕猴桃（缺少图片关联）"
+  ]
+}

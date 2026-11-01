@@ -1,0 +1,1734 @@
+{
+  "schema_version": "2.0.0",
+  "exported_on": "2026-10-31",
+  "status": "legacy_unverified_not_medical_evidence",
+  "purpose": "供外部研究者审计食材、数值、过敏原与组餐规则；不得将本文件作为证据来源。",
+  "priority": "第一阶段审计食材与全部7个健康目标的关系；第二阶段再建立真实菜品和整餐搭配，不按单一疾病优先代替其他目标。",
+  "food_count": 85,
+  "selectable_food_count": 66,
+  "goals": [
+    {
+      "id": "uric",
+      "name": "降尿酸",
+      "condition": "高尿酸 · 痛风",
+      "mark": "UA",
+      "detail": "限制动物高嘌呤、酒精和含糖饮料，合理饮水。"
+    },
+    {
+      "id": "glucose",
+      "name": "稳血糖",
+      "condition": "糖尿病 · 糖尿病前期",
+      "mark": "GLU",
+      "detail": "优先全谷物，主食定量、规律进餐，不以断食代替控糖。"
+    },
+    {
+      "id": "pressure",
+      "name": "控血压",
+      "condition": "高血压",
+      "mark": "BP",
+      "detail": "少盐少酱汁，少吃腌制和加工食品。"
+    },
+    {
+      "id": "lipids",
+      "name": "调血脂",
+      "condition": "血脂异常",
+      "mark": "LDL",
+      "detail": "减少饱和脂肪，优先全谷物、蔬菜和适量坚果。"
+    },
+    {
+      "id": "weight",
+      "name": "管理体重",
+      "condition": "超重 · 肥胖",
+      "mark": "KG",
+      "detail": "均衡饮食、循序减重，避免极端节食。"
+    },
+    {
+      "id": "liver",
+      "name": "改善脂肪肝",
+      "condition": "代谢相关脂肪性肝病",
+      "mark": "LIV",
+      "detail": "控制体重、减少添加糖和酒精，按医嘱复查。"
+    },
+    {
+      "id": "general",
+      "name": "均衡饮食",
+      "condition": "日常健康管理",
+      "mark": "DAY",
+      "detail": "食物多样、规律三餐，建立适合自己的日常节奏。"
+    }
+  ],
+  "allergy_options": [
+    {
+      "id": "egg",
+      "name": "蛋类"
+    },
+    {
+      "id": "milk",
+      "name": "牛奶"
+    },
+    {
+      "id": "soy",
+      "name": "大豆"
+    },
+    {
+      "id": "wheat",
+      "name": "小麦"
+    },
+    {
+      "id": "nuts",
+      "name": "坚果"
+    },
+    {
+      "id": "fish",
+      "name": "鱼类"
+    },
+    {
+      "id": "shellfish",
+      "name": "虾贝类"
+    }
+  ],
+  "special_condition_options": [
+    {
+      "id": "kidney",
+      "name": "肾功能异常 / 透析"
+    },
+    {
+      "id": "heart",
+      "name": "心衰 / 医嘱限水"
+    },
+    {
+      "id": "pregnant",
+      "name": "孕期 / 哺乳期"
+    },
+    {
+      "id": "minor",
+      "name": "未满 18 岁"
+    },
+    {
+      "id": "acute_gout",
+      "name": "痛风正在发作"
+    }
+  ],
+  "legacy_fields": {
+    "purine": "声称mg/100g但未统一生熟口径；未逐项核实",
+    "protein": "声称g/100g但未统一口径；未逐项核实",
+    "fructose": "开发期0–3等级，不能当作实测果糖克数",
+    "tier": "开发期good/ok/avoid标签，不能当作专业适宜性判断",
+    "portion": "默认份量，不是个体营养处方"
+  },
+  "foods": [
+    {
+      "id": "milk_lowfat",
+      "name": "低脂牛奶",
+      "cat": "乳制品",
+      "purine": 1,
+      "fructose": 1,
+      "protein": 3.4,
+      "tier": "good",
+      "role": "dairy",
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "portion": 250,
+      "note": "低脂乳制品有助尿酸排泄，可每天 300ml",
+      "legacy_allergy_tags": [
+        "milk"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "yogurt_plain",
+      "name": "无糖酸奶",
+      "cat": "乳制品",
+      "purine": 1,
+      "fructose": 1,
+      "protein": 3.5,
+      "tier": "good",
+      "role": "dairy",
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "portion": 150,
+      "note": "选无糖，含糖酸奶的果糖抵消好处",
+      "legacy_allergy_tags": [
+        "milk"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "yogurt_greek",
+      "name": "希腊酸奶",
+      "cat": "乳制品",
+      "purine": 2,
+      "fructose": 1,
+      "protein": 9,
+      "tier": "good",
+      "role": "dairy",
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "portion": 130,
+      "note": "蛋白高、糖低",
+      "legacy_allergy_tags": [
+        "milk"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "cheese",
+      "name": "奶酪",
+      "cat": "乳制品",
+      "purine": 1,
+      "fructose": 0,
+      "protein": 25,
+      "tier": "ok",
+      "role": "dairy",
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "portion": 30,
+      "note": "钠偏高，控制量",
+      "legacy_allergy_tags": [
+        "milk"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "egg",
+      "name": "鸡蛋",
+      "cat": "蛋类",
+      "purine": 2,
+      "fructose": 0,
+      "protein": 13,
+      "tier": "good",
+      "role": "protein",
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "portion": 110,
+      "note": "嘌呤极低，优质蛋白来源；一份按两个蛋算",
+      "legacy_allergy_tags": [
+        "egg"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "rice_white",
+      "name": "白米饭",
+      "cat": "主食",
+      "purine": 18,
+      "fructose": 0,
+      "protein": 2.6,
+      "tier": "good",
+      "role": "staple",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 150,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "rice_mixed",
+      "name": "杂粮饭",
+      "cat": "主食",
+      "purine": 30,
+      "fructose": 0,
+      "protein": 3.2,
+      "tier": "good",
+      "role": "staple",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 150,
+      "note": "全谷物有助代谢，嘌呤略高但不影响",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "noodle",
+      "name": "面条",
+      "cat": "主食",
+      "purine": 19,
+      "fructose": 0,
+      "protein": 4.5,
+      "tier": "good",
+      "role": "staple",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 180,
+      "note": "汤面别喝汤",
+      "legacy_allergy_tags": [
+        "wheat"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "bread_whole",
+      "name": "全麦面包",
+      "cat": "主食",
+      "purine": 24,
+      "fructose": 1,
+      "protein": 9,
+      "tier": "good",
+      "role": "staple",
+      "slots": [
+        "breakfast"
+      ],
+      "portion": 80,
+      "note": "",
+      "legacy_allergy_tags": [
+        "wheat"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "oats",
+      "name": "燕麦片",
+      "cat": "主食",
+      "purine": 94,
+      "fructose": 0,
+      "protein": 13,
+      "tier": "ok",
+      "role": "staple",
+      "slots": [
+        "breakfast"
+      ],
+      "portion": 40,
+      "note": "嘌呤偏中，但降脂有益，隔天吃",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "sweet_potato",
+      "name": "红薯",
+      "cat": "主食",
+      "purine": 15,
+      "fructose": 1,
+      "protein": 1.1,
+      "tier": "good",
+      "role": "staple",
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "portion": 150,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "corn",
+      "name": "玉米",
+      "cat": "主食",
+      "purine": 9,
+      "fructose": 1,
+      "protein": 3.3,
+      "tier": "good",
+      "role": "staple",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 150,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "potato",
+      "name": "土豆",
+      "cat": "主食",
+      "purine": 6,
+      "fructose": 0,
+      "protein": 2,
+      "tier": "good",
+      "role": "staple",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 150,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "congee_rice",
+      "name": "白粥",
+      "cat": "主食",
+      "purine": 7,
+      "fructose": 0,
+      "protein": 1.1,
+      "tier": "good",
+      "role": "staple",
+      "slots": [
+        "breakfast"
+      ],
+      "portion": 300,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "congee_millet",
+      "name": "小米粥",
+      "cat": "主食",
+      "purine": 8,
+      "fructose": 0,
+      "protein": 1.4,
+      "tier": "good",
+      "role": "staple",
+      "slots": [
+        "breakfast"
+      ],
+      "portion": 300,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "yam",
+      "name": "山药",
+      "cat": "主食",
+      "purine": 8,
+      "fructose": 0,
+      "protein": 1.9,
+      "tier": "good",
+      "role": "staple",
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "portion": 120,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "lotus_root",
+      "name": "莲藕",
+      "cat": "蔬菜",
+      "purine": 15,
+      "fructose": 0,
+      "protein": 1.9,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 120,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "broccoli",
+      "name": "西兰花",
+      "cat": "蔬菜",
+      "purine": 70,
+      "fructose": 0,
+      "protein": 4.1,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 150,
+      "note": "嘌呤中等但属植物嘌呤，可正常吃",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "cucumber",
+      "name": "黄瓜",
+      "cat": "蔬菜",
+      "purine": 3,
+      "fructose": 0,
+      "protein": 0.6,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "portion": 150,
+      "note": "水分高，有助总水量",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "tomato",
+      "name": "番茄",
+      "cat": "蔬菜",
+      "purine": 4,
+      "fructose": 1,
+      "protein": 0.9,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "portion": 150,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "cabbage",
+      "name": "大白菜",
+      "cat": "蔬菜",
+      "purine": 12,
+      "fructose": 0,
+      "protein": 1.5,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 150,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "carrot",
+      "name": "胡萝卜",
+      "cat": "蔬菜",
+      "purine": 8,
+      "fructose": 1,
+      "protein": 0.9,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 120,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "lettuce",
+      "name": "生菜",
+      "cat": "蔬菜",
+      "purine": 5,
+      "fructose": 0,
+      "protein": 1.3,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 120,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "pepper_green",
+      "name": "青椒",
+      "cat": "蔬菜",
+      "purine": 9,
+      "fructose": 1,
+      "protein": 1,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 100,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "spinach",
+      "name": "菠菜",
+      "cat": "蔬菜",
+      "purine": 57,
+      "fructose": 0,
+      "protein": 2.6,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 120,
+      "note": "植物嘌呤，研究显示不影响痛风风险",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "mushroom_fresh",
+      "name": "鲜蘑菇",
+      "cat": "蔬菜",
+      "purine": 28,
+      "fructose": 0,
+      "protein": 2.7,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 100,
+      "note": "干制后嘌呤浓缩数倍，别吃干香菇",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "winter_melon",
+      "name": "冬瓜",
+      "cat": "蔬菜",
+      "purine": 3,
+      "fructose": 0,
+      "protein": 0.4,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 200,
+      "note": "水分高、利尿",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "celtuce",
+      "name": "莴笋",
+      "cat": "蔬菜",
+      "purine": 8,
+      "fructose": 0,
+      "protein": 1,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 150,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "cabbage_round",
+      "name": "卷心菜",
+      "cat": "蔬菜",
+      "purine": 12,
+      "fructose": 0,
+      "protein": 1.5,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 150,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "onion",
+      "name": "洋葱",
+      "cat": "蔬菜",
+      "purine": 4,
+      "fructose": 0,
+      "protein": 1.1,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 100,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "eggplant",
+      "name": "茄子",
+      "cat": "蔬菜",
+      "purine": 14,
+      "fructose": 0,
+      "protein": 1.1,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 150,
+      "note": "少油做法",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "celery",
+      "name": "芹菜",
+      "cat": "蔬菜",
+      "purine": 8,
+      "fructose": 0,
+      "protein": 0.8,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 120,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "asparagus",
+      "name": "芦笋",
+      "cat": "蔬菜",
+      "purine": 150,
+      "fructose": 0,
+      "protein": 1.4,
+      "tier": "ok",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 80,
+      "note": "嘌呤偏高，偶尔少量",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "kelp",
+      "name": "海带",
+      "cat": "海藻",
+      "purine": 25,
+      "fructose": 0,
+      "protein": 1.2,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 80,
+      "note": "干海带嘌呤高，鲜海带可以",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "tofu",
+      "name": "豆腐",
+      "cat": "豆制品",
+      "purine": 68,
+      "fructose": 0,
+      "protein": 8.1,
+      "tier": "good",
+      "role": "protein",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 150,
+      "note": "植物嘌呤，现代证据认为可适量吃",
+      "legacy_allergy_tags": [
+        "soy"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "tofu_dry",
+      "name": "豆干",
+      "cat": "豆制品",
+      "purine": 66,
+      "fructose": 0,
+      "protein": 16.2,
+      "tier": "ok",
+      "role": "protein",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 120,
+      "note": "",
+      "legacy_allergy_tags": [
+        "soy"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "soy_milk",
+      "name": "无糖豆浆",
+      "cat": "豆制品",
+      "purine": 63,
+      "fructose": 1,
+      "protein": 3,
+      "tier": "good",
+      "role": "dairy",
+      "slots": [
+        "breakfast"
+      ],
+      "portion": 250,
+      "note": "选无糖",
+      "legacy_allergy_tags": [
+        "soy"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "chicken_breast",
+      "name": "鸡胸肉",
+      "cat": "禽肉",
+      "purine": 137,
+      "fructose": 0,
+      "protein": 20,
+      "tier": "ok",
+      "role": "protein",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 100,
+      "note": "去皮",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "chicken_leg",
+      "name": "鸡腿肉",
+      "cat": "禽肉",
+      "purine": 140,
+      "fructose": 0,
+      "protein": 18,
+      "tier": "ok",
+      "role": "protein",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 90,
+      "note": "去皮",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "pork_lean",
+      "name": "瘦猪肉",
+      "cat": "畜肉",
+      "purine": 122,
+      "fructose": 0,
+      "protein": 20,
+      "tier": "ok",
+      "role": "protein",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 90,
+      "note": "全天红肉 ≤100g",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "beef_lean",
+      "name": "瘦牛肉",
+      "cat": "畜肉",
+      "purine": 83,
+      "fructose": 0,
+      "protein": 20,
+      "tier": "ok",
+      "role": "protein",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 90,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "lamb_lean",
+      "name": "瘦羊肉",
+      "cat": "畜肉",
+      "purine": 111,
+      "fructose": 0,
+      "protein": 19,
+      "tier": "ok",
+      "role": "protein",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 80,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "fish_cod",
+      "name": "鳕鱼",
+      "cat": "水产",
+      "purine": 109,
+      "fructose": 0,
+      "protein": 18,
+      "tier": "ok",
+      "role": "protein",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 120,
+      "note": "清蒸做法",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "fish_bass",
+      "name": "鲈鱼",
+      "cat": "水产",
+      "purine": 110,
+      "fructose": 0,
+      "protein": 18,
+      "tier": "ok",
+      "role": "protein",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 120,
+      "note": "清蒸",
+      "legacy_allergy_tags": [
+        "fish"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "shrimp",
+      "name": "虾",
+      "cat": "水产",
+      "purine": 137,
+      "fructose": 0,
+      "protein": 18,
+      "tier": "ok",
+      "role": "protein",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 80,
+      "note": "每周不超过 2 次",
+      "legacy_allergy_tags": [
+        "shellfish"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "cherry",
+      "name": "樱桃",
+      "cat": "水果",
+      "purine": 17,
+      "fructose": 2,
+      "protein": 1,
+      "tier": "good",
+      "role": "fruit",
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "portion": 100,
+      "note": "有小型研究提示可能降尿酸，量仍要控制",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "apple",
+      "name": "苹果",
+      "cat": "水果",
+      "purine": 1,
+      "fructose": 2,
+      "protein": 0.3,
+      "tier": "good",
+      "role": "fruit",
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "portion": 150,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "blueberry",
+      "name": "蓝莓",
+      "cat": "水果",
+      "purine": 3,
+      "fructose": 1,
+      "protein": 0.7,
+      "tier": "good",
+      "role": "fruit",
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "portion": 80,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "pear",
+      "name": "梨",
+      "cat": "水果",
+      "purine": 1,
+      "fructose": 2,
+      "protein": 0.4,
+      "tier": "good",
+      "role": "fruit",
+      "slots": [
+        "snack"
+      ],
+      "portion": 150,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "orange",
+      "name": "橙子",
+      "cat": "水果",
+      "purine": 2,
+      "fructose": 2,
+      "protein": 0.9,
+      "tier": "good",
+      "role": "fruit",
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "portion": 120,
+      "note": "吃整个，不喝果汁",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "banana",
+      "name": "香蕉",
+      "cat": "水果",
+      "purine": 3,
+      "fructose": 2,
+      "protein": 1.1,
+      "tier": "good",
+      "role": "fruit",
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "portion": 100,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "watermelon",
+      "name": "西瓜",
+      "cat": "水果",
+      "purine": 2,
+      "fructose": 2,
+      "protein": 0.6,
+      "tier": "ok",
+      "role": "fruit",
+      "slots": [
+        "snack"
+      ],
+      "portion": 150,
+      "note": "果糖不低，控制在 200g 内",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "grape",
+      "name": "葡萄",
+      "cat": "水果",
+      "purine": 4,
+      "fructose": 3,
+      "protein": 0.5,
+      "tier": "ok",
+      "role": "fruit",
+      "slots": [
+        "snack"
+      ],
+      "portion": 80,
+      "note": "果糖高，少量",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "lychee",
+      "name": "荔枝",
+      "cat": "水果",
+      "purine": 5,
+      "fructose": 3,
+      "protein": 0.8,
+      "tier": "ok",
+      "role": "fruit",
+      "slots": [
+        "snack"
+      ],
+      "portion": 60,
+      "note": "果糖很高，一次不超过 5 颗",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "coffee",
+      "name": "黑咖啡",
+      "cat": "饮品",
+      "purine": 0,
+      "fructose": 0,
+      "protein": 0.1,
+      "tier": "good",
+      "role": "drink",
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "portion": 200,
+      "note": "不加糖不加奶精；有轻微降尿酸关联",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "tea_green",
+      "name": "绿茶",
+      "cat": "饮品",
+      "purine": 0,
+      "fructose": 0,
+      "protein": 0,
+      "tier": "good",
+      "role": "drink",
+      "slots": [
+        "breakfast",
+        "snack"
+      ],
+      "portion": 250,
+      "note": "算入总饮水量",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "water",
+      "name": "白水",
+      "cat": "饮品",
+      "purine": 0,
+      "fructose": 0,
+      "protein": 0,
+      "tier": "good",
+      "role": "drink",
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "portion": 250,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "walnut",
+      "name": "核桃",
+      "cat": "坚果",
+      "purine": 40,
+      "fructose": 0,
+      "protein": 15,
+      "tier": "ok",
+      "role": "fat",
+      "slots": [
+        "snack"
+      ],
+      "portion": 15,
+      "note": "每天一小把",
+      "legacy_allergy_tags": [
+        "nuts"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "almond",
+      "name": "杏仁",
+      "cat": "坚果",
+      "purine": 31,
+      "fructose": 0,
+      "protein": 21,
+      "tier": "ok",
+      "role": "fat",
+      "slots": [
+        "snack"
+      ],
+      "portion": 15,
+      "note": "",
+      "legacy_allergy_tags": [
+        "nuts"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "olive_oil",
+      "name": "橄榄油",
+      "cat": "油脂",
+      "purine": 0,
+      "fructose": 0,
+      "protein": 0,
+      "tier": "good",
+      "role": "fat",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 10,
+      "note": "替代动物油",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "liver_pork",
+      "name": "猪肝",
+      "cat": "内脏",
+      "purine": 275,
+      "fructose": 0,
+      "protein": 19,
+      "tier": "avoid",
+      "role": "protein",
+      "slots": [],
+      "portion": 100,
+      "note": "内脏是嘌呤最高的类别之一",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "liver_duck",
+      "name": "鸭肝",
+      "cat": "内脏",
+      "purine": 301,
+      "fructose": 0,
+      "protein": 17,
+      "tier": "avoid",
+      "role": "protein",
+      "slots": [],
+      "portion": 100,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "kidney",
+      "name": "腰花",
+      "cat": "内脏",
+      "purine": 240,
+      "fructose": 0,
+      "protein": 16,
+      "tier": "avoid",
+      "role": "protein",
+      "slots": [],
+      "portion": 100,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "soup_rich",
+      "name": "浓肉汤 / 老火汤",
+      "cat": "汤类",
+      "purine": 300,
+      "fructose": 0,
+      "protein": 3,
+      "tier": "avoid",
+      "role": "drink",
+      "slots": [],
+      "portion": 300,
+      "note": "嘌呤易溶于水，汤比肉更危险",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "hotpot_soup",
+      "name": "火锅汤底",
+      "cat": "汤类",
+      "purine": 350,
+      "fructose": 0,
+      "protein": 2,
+      "tier": "avoid",
+      "role": "drink",
+      "slots": [],
+      "portion": 300,
+      "note": "煮过海鲜和肉之后嘌呤极高",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "sardine",
+      "name": "沙丁鱼",
+      "cat": "水产",
+      "purine": 295,
+      "fructose": 0,
+      "protein": 20,
+      "tier": "avoid",
+      "role": "protein",
+      "slots": [],
+      "portion": 100,
+      "note": "",
+      "legacy_allergy_tags": [
+        "fish"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "anchovy",
+      "name": "凤尾鱼",
+      "cat": "水产",
+      "purine": 321,
+      "fructose": 0,
+      "protein": 20,
+      "tier": "avoid",
+      "role": "protein",
+      "slots": [],
+      "portion": 100,
+      "note": "",
+      "legacy_allergy_tags": [
+        "fish"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "oyster",
+      "name": "牡蛎 / 生蚝",
+      "cat": "水产",
+      "purine": 239,
+      "fructose": 0,
+      "protein": 9,
+      "tier": "avoid",
+      "role": "protein",
+      "slots": [],
+      "portion": 100,
+      "note": "",
+      "legacy_allergy_tags": [
+        "shellfish"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "scallop",
+      "name": "扇贝",
+      "cat": "水产",
+      "purine": 193,
+      "fructose": 0,
+      "protein": 15,
+      "tier": "avoid",
+      "role": "protein",
+      "slots": [],
+      "portion": 100,
+      "note": "",
+      "legacy_allergy_tags": [
+        "shellfish"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "dried_fish",
+      "name": "小鱼干",
+      "cat": "水产",
+      "purine": 1538,
+      "fructose": 0,
+      "protein": 45,
+      "tier": "avoid",
+      "role": "protein",
+      "slots": [],
+      "portion": 30,
+      "note": "脱水后嘌呤极度浓缩",
+      "legacy_allergy_tags": [
+        "fish"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "seaweed_dried",
+      "name": "干紫菜",
+      "cat": "海藻",
+      "purine": 274,
+      "fructose": 0,
+      "protein": 26,
+      "tier": "avoid",
+      "role": "veg",
+      "slots": [],
+      "portion": 10,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "mushroom_dried",
+      "name": "干香菇",
+      "cat": "蔬菜",
+      "purine": 214,
+      "fructose": 0,
+      "protein": 20,
+      "tier": "avoid",
+      "role": "veg",
+      "slots": [],
+      "portion": 10,
+      "note": "干制浓缩",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "beer",
+      "name": "啤酒",
+      "cat": "酒精",
+      "purine": 14,
+      "fructose": 1,
+      "protein": 0.5,
+      "tier": "avoid",
+      "role": "drink",
+      "slots": [],
+      "portion": 500,
+      "note": "酒精+嘌呤双重打击，且抑制排泄",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "liquor",
+      "name": "白酒",
+      "cat": "酒精",
+      "purine": 0,
+      "fructose": 0,
+      "protein": 0,
+      "tier": "avoid",
+      "role": "drink",
+      "slots": [],
+      "portion": 50,
+      "note": "酒精代谢产生乳酸，竞争尿酸排泄",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "sugary_drink",
+      "name": "含糖饮料",
+      "cat": "饮品",
+      "purine": 0,
+      "fructose": 3,
+      "protein": 0,
+      "tier": "avoid",
+      "role": "drink",
+      "slots": [],
+      "portion": 500,
+      "note": "果糖直接产尿酸，这类影响常被低估",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "juice",
+      "name": "果汁",
+      "cat": "饮品",
+      "purine": 0,
+      "fructose": 3,
+      "protein": 0.5,
+      "tier": "avoid",
+      "role": "drink",
+      "slots": [],
+      "portion": 300,
+      "note": "\"纯果汁\"同样高果糖，吃整个水果",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "honey",
+      "name": "蜂蜜",
+      "cat": "调味",
+      "purine": 0,
+      "fructose": 3,
+      "protein": 0.3,
+      "tier": "avoid",
+      "role": "fat",
+      "slots": [],
+      "portion": 20,
+      "note": "果糖约 40%",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "bbq",
+      "name": "烧烤 / 卤味",
+      "cat": "加工",
+      "purine": 150,
+      "fructose": 0,
+      "protein": 18,
+      "tier": "avoid",
+      "role": "protein",
+      "slots": [],
+      "portion": 150,
+      "note": "多为内脏、边角肉，且高盐",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "sausage",
+      "name": "香肠 / 腊肉",
+      "cat": "加工",
+      "purine": 120,
+      "fructose": 0,
+      "protein": 24,
+      "tier": "avoid",
+      "role": "protein",
+      "slots": [],
+      "portion": 80,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "egg_white",
+      "name": "鸡蛋蛋白",
+      "cat": "蛋类",
+      "purine": 2,
+      "fructose": 0,
+      "protein": 11,
+      "tier": "good",
+      "role": "protein",
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "portion": 100,
+      "note": "蛋过敏者同样需要排除",
+      "legacy_allergy_tags": [
+        "egg"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "tofu_soft",
+      "name": "嫩豆腐",
+      "cat": "豆制品",
+      "purine": 40,
+      "fructose": 0,
+      "protein": 6.2,
+      "tier": "good",
+      "role": "protein",
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "portion": 180,
+      "note": "清蒸或炖煮，少放调味汁",
+      "legacy_allergy_tags": [
+        "soy"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "edamame",
+      "name": "鲜毛豆",
+      "cat": "豆制品",
+      "purine": 48,
+      "fructose": 0,
+      "protein": 13.1,
+      "tier": "good",
+      "role": "protein",
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "portion": 100,
+      "note": "原味水煮，不用盐水卤制",
+      "legacy_allergy_tags": [
+        "soy"
+      ],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "pumpkin",
+      "name": "南瓜",
+      "cat": "主食",
+      "purine": 3,
+      "fructose": 1,
+      "protein": 1,
+      "tier": "good",
+      "role": "staple",
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "portion": 150,
+      "note": "作为主食替换，不额外叠加",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "bok_choy",
+      "name": "小白菜",
+      "cat": "蔬菜",
+      "purine": 12,
+      "fructose": 0,
+      "protein": 1.5,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "portion": 150,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    },
+    {
+      "id": "zucchini",
+      "name": "西葫芦",
+      "cat": "蔬菜",
+      "purine": 8,
+      "fructose": 0,
+      "protein": 1.2,
+      "tier": "good",
+      "role": "veg",
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "portion": 150,
+      "note": "",
+      "legacy_allergy_tags": [],
+      "provenance_status": "not_individually_verified"
+    }
+  ],
+  "rules_to_audit": [
+    {
+      "rule_id": "purine_daily_300",
+      "legacy_text": "统一使用每日300mg嘌呤参考线。",
+      "status": "unverified_prototype_rule"
+    },
+    {
+      "rule_id": "water_35ml_kg",
+      "legacy_text": "参考饮水量按体重×35ml计算，默认限制1800–3000ml，运动或炎热时额外加量。",
+      "status": "unverified_prototype_rule"
+    },
+    {
+      "rule_id": "protein_08_10",
+      "legacy_text": "每日蛋白参考量为0.8–1.0g/kg，正餐组餐追求每餐至少15g蛋白。",
+      "status": "unverified_prototype_rule"
+    },
+    {
+      "rule_id": "purine_fructose_score",
+      "legacy_text": "以purine×0.6+fructose等级×14+食材档位惩罚给食物打分；分值影响随机选择。果糖等级为0–3。",
+      "status": "unverified_prototype_rule"
+    },
+    {
+      "rule_id": "plant_purines",
+      "legacy_text": "部分植物食物虽有较高嘌呤参考值，仍设为可选；需区分含量、临床结局和份量。",
+      "status": "unverified_prototype_rule"
+    },
+    {
+      "rule_id": "acute_gout_animals",
+      "legacy_text": "勾选痛风发作时排除全部畜肉、禽肉、水产候选。",
+      "status": "unverified_prototype_rule"
+    },
+    {
+      "rule_id": "glucose_staples",
+      "legacy_text": "勾选稳血糖时排除白粥、小米粥，增加部分全谷物选择权重，并将正餐主食量统一取120g。",
+      "status": "unverified_prototype_rule"
+    },
+    {
+      "rule_id": "pressure_exclusions",
+      "legacy_text": "勾选控血压时排除奶酪、豆干，但缺少完整钠数据库。",
+      "status": "unverified_prototype_rule"
+    },
+    {
+      "rule_id": "lipids_exclusions",
+      "legacy_text": "勾选调血脂时排除奶酪，但缺少完整饱和脂肪数据库。",
+      "status": "unverified_prototype_rule"
+    },
+    {
+      "rule_id": "cooking_titles",
+      "legacy_text": "部分菜名仅由清蒸/少油煎炒/清炒等前缀加食材名组成；未为每道菜建立真实配方。",
+      "status": "unverified_prototype_rule"
+    },
+    {
+      "rule_id": "purine_calculation",
+      "legacy_text": "嘌呤及蛋白值按每100g数值×食用克数/100求和；旧表未统一标明生熟、品种或烹调损失。",
+      "status": "unverified_prototype_rule"
+    },
+    {
+      "rule_id": "global_tiers",
+      "legacy_text": "good/ok/avoid为开发期人工标记；avoid在各健康目标中统一排除，尚未逐项证据核查。",
+      "status": "unverified_prototype_rule"
+    },
+    {
+      "rule_id": "allergy_mapping",
+      "legacy_text": "目前按类别和少量ID映射7种常见过敏原；请检查遗漏，尤其鱼类、蛋白/整蛋、嫩豆腐/大豆以及调味料。",
+      "status": "unverified_prototype_rule"
+    },
+    {
+      "rule_id": "clinical_plan_pause",
+      "legacy_text": "肾功能异常/透析、心衰/限水、孕哺期和未成年暂停通用配餐，应明确通用食养参考的适用边界。",
+      "status": "unverified_prototype_rule"
+    },
+    {
+      "rule_id": "weight_goal_coverage",
+      "legacy_text": "管理体重目前增加部分全谷物选择权重，但没有完整能量数据库、能量需求或能量缺口计算。",
+      "status": "unverified_prototype_rule"
+    },
+    {
+      "rule_id": "liver_goal_coverage",
+      "legacy_text": "脂肪肝目标目前沿用部分全谷物权重和一般提示，没有独立、可追溯的食材适用性与病情分层依据。",
+      "status": "unverified_prototype_rule"
+    },
+    {
+      "rule_id": "general_goal_coverage",
+      "legacy_text": "均衡饮食仍共用good/ok/avoid等排除标签，需核查是否错误地把某疾病的限制推广到普通人群。",
+      "status": "unverified_prototype_rule"
+    }
+  ],
+  "source_code_files": [
+    "core/foods.js",
+    "core/profile.js",
+    "core/recommend.js",
+    "core/rules.js",
+    "core/meal-deck.js"
+  ],
+  "contains_personal_records": false
+}

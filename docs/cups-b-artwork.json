@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-31",
+  "asset": "desktop/ui/assets/cups-b-frosted-empty.png",
+  "generator": "built-in image_gen",
+  "approvedReference": "B 柔雾冰胶，三杯型约10度右倾",
+  "purpose": "原创半透明空杯图集提供器物材质；水体由界面独立动态绘制",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "alpha": "RGBA；背景与把手孔透明，杯壁有半透明像素，已读取像素核验",
+  "prompt": "Use case: precise-object-edit and background-extraction.\nThe supplied image is the approved design target. Prepare one production RGBA sprite sheet from these SAME THREE B frosted-mint vessels. Preserve their identities exactly: left short round tumbler with subtle foot; middle plump handled mug; right capsule sports bottle with frosted cap and small carry loop. Preserve their approximately 10-degree rightward tilt, relative small/medium/tall sizes, soft satin mint translucent resin, subtle grain, broad diffused highlights and high-end rounded 3D volume. Do not redesign any cup.\nMake all three vessels COMPLETELY EMPTY. Remove every water surface, meniscus, fill line, liquid shading and water stripe. The empty interiors have continuous translucent material without any horizontal seam. We will animate water independently behind the shell in the app. The front interior MUST be genuinely semi-transparent in the alpha channel, so a later water layer underneath can be seen through the softly frosted walls. Thin interior front has approximately 25-40 percent opacity; thicker side edges, base, handle, rim and cap retain stronger frosted shading. Keep premium dimensional highlights, no opaque white interior fill. Transparent areas must contain real alpha, no baked dark green backdrop.\nRemove ALL background, floor, shadows outside the objects, title, labels, numbers, lettering and decorations. Genuinely transparent background including the handle holes. No checkerboard painted into the image. No ground plane or contact shadow; those will be added by the app.\nLayout: landscape transparent canvas with exactly three equal-width vertical sprite columns, no overlap. Every object stays fully inside its own third with generous padding. All three share a bottom alignment near 91 percent canvas height. Same original relative sizes, the bottle is tallest. Prefer 1536 by 1024 canvas. Left third: tumbler. Center third: mug. Right third: bottle. Keep every cap and handle completely uncropped. Only these three EMPTY objects, no extra versions.",
+  "implementation": "不改变原PNG；在SVG中按杯型裁剪图集，用Alpha蒙版和容器剪裁限制独立水体。水面相对画布保持水平，水位按当天目标完成度变化。"
+}

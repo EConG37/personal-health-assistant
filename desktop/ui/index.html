@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self'; img-src 'self' data:" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>个人健康助手 · 日常</title>
+    <link rel="preload" href="fonts/AlibabaPuHuiTi-2-55-Regular.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-a.css" />
+    <link rel="stylesheet" href="cups.css" />
+    <link rel="stylesheet" href="food-art.css" />
+    <link rel="stylesheet" href="settings-polish.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <span class="app-caption" id="page-label">今日</span>
+        <span class="date" id="today-label"></span>
+        <button class="close" id="btn-close" title="隐藏到托盘" aria-label="隐藏到托盘"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><path d="m3 3 10 10M13 3 3 13" /></svg></button>
+      </header>
+
+      <main id="view" tabindex="-1"></main>
+      <nav class="bottom-nav" aria-label="主要功能">
+        <button data-tab="today" class="active" aria-current="page"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 10 9-7 9 7v10H15v-7H9v7H3Z"/></svg>今日</button>
+        <button data-tab="plan"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 3v7m3-7v7M2 3v7q0 4 6 4M5 14v7M18 3q-5 5-3 10h4M19 3v18"/></svg>好好吃饭</button>
+        <button data-tab="settings"><svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="7" r="4"/><path d="M3 21v-2a9 9 0 0 1 18 0v2Z"/></svg>我的设置</button>
+      </nav>
+      <div id="feedback" role="status" aria-live="polite"></div>
+    </div>
+
+    <script src="cups.js"></script>
+    <script src="food-art.js"></script>
+    <script src="dish-art.js"></script>
+    <script src="icons.js"></script>
+    <script src="views.js"></script>
+    <script src="app.js"></script>
+    <dialog id="sync-guide" class="sync-guide" aria-labelledby="sync-guide-title" closedby="closerequest">
+      <div class="guide-head"><h2 id="sync-guide-title">飞书连接与使用</h2><span class="guide-progress" aria-live="polite"></span><button type="button" class="guide-close" data-guide-close aria-label="关闭引导" autofocus><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><path d="m3 3 10 10M13 3 3 13" /></svg></button></div>
+      <div class="guide-steps" aria-label="连接步骤"></div>
+      <div class="guide-body"></div>
+      <p class="guide-error" role="alert"></p>
+      <div class="guide-footer"><button type="button" class="btn ghost" data-guide-prev>上一步</button><button type="button" class="btn primary" data-guide-next>下一步</button></div>
+    </dialog>
+    <script src="sync-guide.js"></script>
+  </body>
+</html>

@@ -1,0 +1,362 @@
+{
+  "style": "Original soft 3D cooked-food cutouts in off-white ceramic bowls, transparent background, same perspective and scale as existing food assets.",
+  "specs": [
+    {
+      "name": "breakfast",
+      "file": "dish-breakfast-v1",
+      "entries": [
+        {
+          "dish": "鸡蛋饼",
+          "visual": "golden scallion egg-and-corn-flour pancake cut into wedges, flat round pancake, NO noodles, NO corn cobs",
+          "index": 0
+        },
+        {
+          "dish": "蔬菜饼",
+          "visual": "small pan-cooked broccoli vegetable flour pancakes",
+          "index": 1
+        },
+        {
+          "dish": "馒头",
+          "visual": "two smooth round white Chinese steamed mantou buns",
+          "index": 2
+        },
+        {
+          "dish": "玉米面馒头",
+          "visual": "two pale-yellow corn-flour steamed mantou buns, NOT corn cobs",
+          "index": 3
+        },
+        {
+          "dish": "燕麦馒头",
+          "visual": "two light-beige oat-flour steamed buns with tiny oat flecks",
+          "index": 4
+        },
+        {
+          "dish": "紫薯馒头",
+          "visual": "two purple sweet-potato steamed buns",
+          "index": 5
+        },
+        {
+          "dish": "双色花卷",
+          "visual": "white-and-yellow pumpkin spiral Chinese steamed flower rolls",
+          "index": 6
+        },
+        {
+          "dish": "窝头",
+          "visual": "golden corn-flour cone-shaped wotou steamed bread with hollow bases",
+          "index": 7
+        },
+        {
+          "dish": "荞麦面条",
+          "visual": "cooked grey-brown buckwheat noodles, no eggs",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "name": "rice",
+      "file": "dish-rice-v1",
+      "entries": [
+        {
+          "dish": "二米饭",
+          "visual": "white rice mixed with tiny yellow millet grains, NO beans",
+          "index": 0
+        },
+        {
+          "dish": "糙米饭",
+          "visual": "brown rice and white rice mixed with a few black soybeans",
+          "index": 1
+        },
+        {
+          "dish": "燕麦米饭",
+          "visual": "white rice mixed with oat grains, NO beans",
+          "index": 2
+        },
+        {
+          "dish": "玉米饭",
+          "visual": "white rice with yellow corn kernels, NOT corn cob pieces",
+          "index": 3
+        },
+        {
+          "dish": "紫薯饭",
+          "visual": "white rice with small purple sweet-potato cubes",
+          "index": 4
+        },
+        {
+          "dish": "南瓜饭",
+          "visual": "white rice with orange pumpkin cubes",
+          "index": 5
+        },
+        {
+          "dish": "蔬菜面",
+          "visual": "cooked white wheat noodles with choy sum greens, no eggs",
+          "index": 6
+        },
+        {
+          "dish": "山药鸡蛋面",
+          "visual": "cooked wheat noodles with egg pieces and white Chinese-yam chunks",
+          "index": 7
+        },
+        {
+          "dish": "荷包蛋",
+          "visual": "one poached egg, opaque soft white and golden yolk, NOT a hard-boiled egg half",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "name": "mains-a",
+      "file": "dish-mains-a-v1",
+      "entries": [
+        {
+          "dish": "番茄炒蛋",
+          "visual": "red tomato wedges stir-fried with golden scrambled egg",
+          "index": 0
+        },
+        {
+          "dish": "西葫芦炒鸡蛋",
+          "visual": "zucchini half-moons stir-fried with scrambled egg",
+          "index": 1
+        },
+        {
+          "dish": "韭菜炒鸡蛋",
+          "visual": "short dark-green Chinese chives stir-fried with scrambled egg",
+          "index": 2
+        },
+        {
+          "dish": "青椒炒肉丝",
+          "visual": "thin green bell-pepper strips stir-fried with thin lean pork strips",
+          "index": 3
+        },
+        {
+          "dish": "芹菜炒肉丝",
+          "visual": "green celery strips stir-fried with thin lean pork strips",
+          "index": 4
+        },
+        {
+          "dish": "芹菜炒鸡丝",
+          "visual": "green celery strips stir-fried with thin white chicken shreds",
+          "index": 5
+        },
+        {
+          "dish": "西兰花炒鸡胸肉",
+          "visual": "broccoli florets stir-fried with white chicken breast pieces",
+          "index": 6
+        },
+        {
+          "dish": "西兰花炒肉片",
+          "visual": "broccoli florets stir-fried with thin cooked beef slices",
+          "index": 7
+        },
+        {
+          "dish": "木耳炒鸡胸肉",
+          "visual": "white chicken breast slices with black wood-ear mushrooms and green beans",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "name": "mains-b",
+      "file": "dish-mains-b-v1",
+      "entries": [
+        {
+          "dish": "西红柿炖牛肉",
+          "visual": "cooked beef cubes braised with red tomato and white tofu cubes",
+          "index": 0
+        },
+        {
+          "dish": "洋葱西红柿烩牛肉",
+          "visual": "beef with onion, red tomato and potato cubes",
+          "index": 1
+        },
+        {
+          "dish": "胡萝卜炖牛肉",
+          "visual": "braised beef cubes and orange carrot chunks",
+          "index": 2
+        },
+        {
+          "dish": "土豆炖牛肉",
+          "visual": "braised beef cubes with potato and onion",
+          "index": 3
+        },
+        {
+          "dish": "虾仁炒西葫芦",
+          "visual": "pink peeled shrimp stir-fried with zucchini half-moons",
+          "index": 4
+        },
+        {
+          "dish": "虾仁炒黄瓜",
+          "visual": "pink peeled shrimp stir-fried with green cucumber slices",
+          "index": 5
+        },
+        {
+          "dish": "小葱拌豆腐",
+          "visual": "white tofu cubes topped with chopped spring onions",
+          "index": 6
+        },
+        {
+          "dish": "青椒豆干",
+          "visual": "firm pressed tofu strips with brown edges stir-fried with green bell pepper",
+          "index": 7
+        },
+        {
+          "dish": "芦笋豆腐干",
+          "visual": "asparagus, brown-edged firm tofu strips and button mushrooms",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "name": "mains-c",
+      "file": "dish-mains-c-v1",
+      "entries": [
+        {
+          "dish": "香干莴笋",
+          "visual": "thin brown-edged firm tofu strips stir-fried with light-green celtuce strips",
+          "index": 0
+        },
+        {
+          "dish": "滑炒鸡片",
+          "visual": "thin cooked white chicken slices with short spring onion segments and ginger",
+          "index": 1
+        },
+        {
+          "dish": "豆干肉丝",
+          "visual": "firm tofu strips, lean pork shreds and fine orange carrot strips",
+          "index": 2
+        },
+        {
+          "dish": "鸡丝芦笋",
+          "visual": "thin chicken shreds stir-fried with green asparagus",
+          "index": 3
+        },
+        {
+          "dish": "鸡片炒油菜",
+          "visual": "white chicken slices stir-fried with baby bok choy",
+          "index": 4
+        },
+        {
+          "dish": "蘑菇炒肉",
+          "visual": "cooked beef slices with shiitake mushrooms and bok choy",
+          "index": 5
+        },
+        {
+          "dish": "尖椒炒肉",
+          "visual": "lean pork strips stir-fried with long green pepper strips",
+          "index": 6
+        },
+        {
+          "dish": "洋葱炒木耳",
+          "visual": "onion, black wood-ear mushrooms, green celery and cooked chicken slices",
+          "index": 7
+        },
+        {
+          "dish": "清蒸鲈鱼",
+          "visual": "a steamed silver sea-bass fish with white cooked flesh on an oval white ceramic plate",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "name": "vegetables-a",
+      "file": "dish-vegetables-a-v1",
+      "entries": [
+        {
+          "dish": "西兰花炒胡萝卜",
+          "visual": "green broccoli florets and orange carrot slices, no meat",
+          "index": 0
+        },
+        {
+          "dish": "香菇炒芹菜",
+          "visual": "shiitake mushroom slices and green celery, no meat",
+          "index": 1
+        },
+        {
+          "dish": "香菇炒油菜",
+          "visual": "shiitake mushroom caps with cooked bok choy greens",
+          "index": 2
+        },
+        {
+          "dish": "醋溜土豆丝",
+          "visual": "thin pale-yellow julienned potato shreds with fine green pepper strips, NOT corn or whole peppers",
+          "index": 3
+        },
+        {
+          "dish": "素炒三丝",
+          "visual": "fine carrot, cucumber and green bell-pepper strips, no meat",
+          "index": 4
+        },
+        {
+          "dish": "拌紫甘蓝",
+          "visual": "thin shredded purple cabbage salad",
+          "index": 5
+        },
+        {
+          "dish": "西兰花木耳",
+          "visual": "broccoli florets and black wood-ear mushrooms",
+          "index": 6
+        },
+        {
+          "dish": "芦笋炒香菇",
+          "visual": "green asparagus with shiitake mushroom pieces",
+          "index": 7
+        },
+        {
+          "dish": "西红柿炒西葫芦",
+          "visual": "red tomato pieces with green zucchini half-moons",
+          "index": 8
+        }
+      ]
+    },
+    {
+      "name": "vegetables-b",
+      "file": "dish-vegetables-b-v1",
+      "entries": [
+        {
+          "dish": "豌豆胡萝卜",
+          "visual": "small green peas mixed with small orange carrot cubes",
+          "index": 0
+        },
+        {
+          "dish": "凉拌芹菜",
+          "visual": "green celery slices with visible shelled roasted peanuts",
+          "index": 1
+        },
+        {
+          "dish": "蒜蓉油麦菜",
+          "visual": "cooked long dark-green leaf lettuce with minced garlic, NOT a raw lettuce head",
+          "index": 2
+        },
+        {
+          "dish": "小炒素三鲜",
+          "visual": "white shimeji mushrooms, black wood-ear mushrooms and green celery",
+          "index": 3
+        },
+        {
+          "dish": "蒜泥茄子",
+          "visual": "tender purple eggplant strips with minced garlic and a few green pepper pieces",
+          "index": 4
+        },
+        {
+          "dish": "蒜蓉娃娃菜",
+          "visual": "tender baby napa cabbage leaves with minced garlic",
+          "index": 5
+        },
+        {
+          "dish": "凉拌藕片",
+          "visual": "white lotus-root slices with holes and fine green pepper strips",
+          "index": 6
+        },
+        {
+          "dish": "凉拌黄瓜",
+          "visual": "fresh green cucumber rounds with translucent pale centers",
+          "index": 7
+        },
+        {
+          "dish": "凉拌菠菜",
+          "visual": "cooked deep-green spinach leaves and stems, no meat",
+          "index": 8
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,802 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "个人健康助手：全部目标食材研究 v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "meta",
+    "sources",
+    "goal_summaries",
+    "principles",
+    "foods",
+    "rule_audits",
+    "gaps"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.0.0"
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "research_stage",
+        "research_date",
+        "goal_scope",
+        "coverage",
+        "status",
+        "review_status"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "research_stage": {
+          "const": "ingredients"
+        },
+        "research_date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "goal_scope": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "uric",
+              "glucose",
+              "pressure",
+              "lipids",
+              "weight",
+              "liver",
+              "general"
+            ]
+          },
+          "minItems": 7,
+          "maxItems": 7,
+          "uniqueItems": true
+        },
+        "coverage": {
+          "type": "string",
+          "enum": [
+            "complete",
+            "partial"
+          ]
+        },
+        "status": {
+          "const": "research_reference_only"
+        },
+        "review_status": {
+          "const": "not_clinically_reviewed"
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/source"
+      }
+    },
+    "goal_summaries": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "uric",
+        "glucose",
+        "pressure",
+        "lipids",
+        "weight",
+        "liver",
+        "general"
+      ],
+      "properties": {
+        "uric": {
+          "$ref": "#/definitions/goal_summary"
+        },
+        "glucose": {
+          "$ref": "#/definitions/goal_summary"
+        },
+        "pressure": {
+          "$ref": "#/definitions/goal_summary"
+        },
+        "lipids": {
+          "$ref": "#/definitions/goal_summary"
+        },
+        "weight": {
+          "$ref": "#/definitions/goal_summary"
+        },
+        "liver": {
+          "$ref": "#/definitions/goal_summary"
+        },
+        "general": {
+          "$ref": "#/definitions/goal_summary"
+        }
+      }
+    },
+    "principles": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/principle"
+      }
+    },
+    "foods": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/food"
+      }
+    },
+    "rule_audits": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/audit"
+      }
+    },
+    "gaps": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/gap"
+      }
+    }
+  },
+  "definitions": {
+    "evidence_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "locator",
+        "support",
+        "summary"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "support": {
+          "type": "string",
+          "enum": [
+            "direct",
+            "inferred",
+            "conflicting"
+          ]
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "metric": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "value",
+        "range",
+        "unit",
+        "measurement_definition",
+        "origin",
+        "evidence_refs",
+        "note"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "enum": [
+            "purine_mg",
+            "protein_g",
+            "energy_kcal",
+            "carbohydrate_g",
+            "available_carbohydrate_g",
+            "fat_g",
+            "saturated_fat_g",
+            "cholesterol_mg",
+            "fiber_g",
+            "sodium_mg",
+            "potassium_mg",
+            "total_sugars_g",
+            "added_sugars_g",
+            "fructose_g",
+            "glycemic_index"
+          ]
+        },
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "range": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "minimum": 0
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "unit": {
+          "type": "string",
+          "enum": [
+            "mg",
+            "g",
+            "kcal",
+            "unitless"
+          ]
+        },
+        "measurement_definition": {
+          "type": "string"
+        },
+        "origin": {
+          "type": "string",
+          "enum": [
+            "source_reported",
+            "calculated",
+            "not_found"
+          ]
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/evidence_ref"
+          }
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "title",
+        "issuer_or_authors",
+        "publication_year",
+        "publication_date",
+        "version",
+        "url",
+        "accessed_on",
+        "type",
+        "access",
+        "currency",
+        "reuse_notes"
+      ],
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^SRC_[A-Za-z0-9_-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "issuer_or_authors": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publication_year": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1900,
+          "maximum": 2100
+        },
+        "publication_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "accessed_on": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "government_guideline",
+            "clinical_guideline",
+            "standard",
+            "food_composition_database",
+            "systematic_review",
+            "primary_study",
+            "other"
+          ]
+        },
+        "access": {
+          "type": "string",
+          "enum": [
+            "full_text",
+            "abstract_only",
+            "unavailable"
+          ]
+        },
+        "currency": {
+          "type": "string",
+          "enum": [
+            "current",
+            "superseded",
+            "unclear"
+          ]
+        },
+        "reuse_notes": {
+          "type": "string"
+        }
+      }
+    },
+    "goal_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "coverage",
+        "population",
+        "key_questions",
+        "findings",
+        "limitations",
+        "evidence_refs"
+      ],
+      "properties": {
+        "coverage": {
+          "type": "string",
+          "enum": [
+            "found",
+            "partial",
+            "not_found"
+          ]
+        },
+        "population": {
+          "type": "string",
+          "minLength": 1
+        },
+        "key_questions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "findings": {
+          "type": "string",
+          "minLength": 1
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/evidence_ref"
+          }
+        }
+      }
+    },
+    "principle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "principle_id",
+        "goal_ids",
+        "population",
+        "gout_phase",
+        "statement",
+        "limitations",
+        "strength_as_reported",
+        "evidence_refs",
+        "review_status"
+      ],
+      "properties": {
+        "principle_id": {
+          "type": "string",
+          "pattern": "^RULE_[A-Za-z0-9_-]+$"
+        },
+        "goal_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "uric",
+              "glucose",
+              "pressure",
+              "lipids",
+              "weight",
+              "liver",
+              "general"
+            ]
+          }
+        },
+        "population": {
+          "type": "string",
+          "minLength": 1
+        },
+        "gout_phase": {
+          "type": "string",
+          "enum": [
+            "asymptomatic_hyperuricemia",
+            "acute",
+            "intercritical",
+            "chronic",
+            "not_phase_specific",
+            "not_applicable",
+            "unclear"
+          ]
+        },
+        "statement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "strength_as_reported": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/evidence_ref"
+          }
+        },
+        "review_status": {
+          "const": "not_clinically_reviewed"
+        }
+      }
+    },
+    "food_form": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "form_id",
+        "identity_details",
+        "state",
+        "basis",
+        "metrics",
+        "notes"
+      ],
+      "properties": {
+        "form_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "identity_details": {
+          "type": "string",
+          "minLength": 1
+        },
+        "state": {
+          "type": "string",
+          "enum": [
+            "raw",
+            "cooked",
+            "dried",
+            "processed",
+            "unspecified"
+          ]
+        },
+        "basis": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "amount",
+            "unit",
+            "edible_portion"
+          ],
+          "properties": {
+            "amount": {
+              "const": 100
+            },
+            "unit": {
+              "type": "string",
+              "enum": [
+                "g",
+                "ml"
+              ]
+            },
+            "edible_portion": {
+              "type": "boolean"
+            }
+          }
+        },
+        "metrics": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/metric"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "goal_assessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "assessment",
+        "form_ids",
+        "population",
+        "rationale",
+        "conditions",
+        "portion_guidance",
+        "preparation_notes",
+        "principle_ids",
+        "evidence_refs"
+      ],
+      "properties": {
+        "assessment": {
+          "type": "string",
+          "enum": [
+            "compatible_under_conditions",
+            "limit",
+            "avoid",
+            "not_specifically_addressed",
+            "insufficient_evidence"
+          ]
+        },
+        "form_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "population": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "portion_guidance": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "preparation_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "principle_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/evidence_ref"
+          }
+        }
+      }
+    },
+    "food": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "food_id",
+        "name_zh",
+        "coverage",
+        "forms",
+        "goal_assessments",
+        "allergens",
+        "allergen_notes",
+        "assessment_notes",
+        "evidence_refs"
+      ],
+      "properties": {
+        "food_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$"
+        },
+        "name_zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "coverage": {
+          "type": "string",
+          "enum": [
+            "found",
+            "partial",
+            "not_found"
+          ]
+        },
+        "forms": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/food_form"
+          }
+        },
+        "goal_assessments": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uric",
+            "glucose",
+            "pressure",
+            "lipids",
+            "weight",
+            "liver",
+            "general"
+          ],
+          "properties": {
+            "uric": {
+              "$ref": "#/definitions/goal_assessment"
+            },
+            "glucose": {
+              "$ref": "#/definitions/goal_assessment"
+            },
+            "pressure": {
+              "$ref": "#/definitions/goal_assessment"
+            },
+            "lipids": {
+              "$ref": "#/definitions/goal_assessment"
+            },
+            "weight": {
+              "$ref": "#/definitions/goal_assessment"
+            },
+            "liver": {
+              "$ref": "#/definitions/goal_assessment"
+            },
+            "general": {
+              "$ref": "#/definitions/goal_assessment"
+            }
+          }
+        },
+        "allergens": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "allergen_notes": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assessment_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/evidence_ref"
+          }
+        }
+      }
+    },
+    "audit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "rule_id",
+        "legacy_statement",
+        "verdict",
+        "rationale",
+        "action",
+        "proposed_text",
+        "evidence_refs"
+      ],
+      "properties": {
+        "rule_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "legacy_statement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verdict": {
+          "type": "string",
+          "enum": [
+            "supported",
+            "partly_supported",
+            "unsupported",
+            "conflicting",
+            "not_found"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "action": {
+          "type": "string",
+          "enum": [
+            "retain",
+            "revise",
+            "remove",
+            "individualize",
+            "defer"
+          ]
+        },
+        "proposed_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/evidence_ref"
+          }
+        }
+      }
+    },
+    "gap": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "target_id",
+        "issue",
+        "reason",
+        "next_step"
+      ],
+      "properties": {
+        "target_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "issue": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "next_step": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

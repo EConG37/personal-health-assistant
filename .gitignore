@@ -1,0 +1,36 @@
+node_modules/
+dist/
+release/
+build/mac-runtime/
+build/mac-payload/
+build/mac-app.asar
+build/mac-asar-integrity.json
+__pycache__/
+.tmp-preview/
+*.log
+data.json
+
+# Local records, credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.enc
+*.pem
+*.key
+*credentials*.json
+*secrets*.json
+*.corrupt-*
+*.bak
+startup-entry-backup-*.json
+user-data/
+program-backups/
+
+# Local previews, downloaded research and generated audit work
+.oil-ui/
+2880
+docs/research-handoff/downloads/
+docs/research-handoff/build/
+docs/research-handoff/acceptance/
+docs/research-handoff/acceptance-r*/
+.DS_Store
+Thumbs.db

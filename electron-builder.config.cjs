@@ -1,0 +1,25 @@
+module.exports={
+ appId:'com.local.uric-acid-companion',
+ productName:'个人健康助手',
+ executableName:'HealthCompanion',
+ directories:{output:'dist',buildResources:'build'},
+ files:[
+  'package.json','core/*.js','core/data/guide-dishes.json',
+  'desktop/main.js','desktop/preload.js','desktop/panel-lifecycle.js','desktop/tray-theme.js','desktop/release-check.js',
+  'desktop/native/PanelFocusObserver.exe',
+  'desktop/ui/*.js','desktop/ui/*.css','desktop/ui/index.html',
+  'desktop/ui/assets/*.png','desktop/ui/assets/*.webp',
+  'desktop/ui/fonts/*.ttf','desktop/ui/fonts/README.md',
+  '!**/*.map','!**/*.log','!**/.env*','!**/*credentials*','!**/data.json'
+ ],
+ asar:true,
+ asarUnpack:['desktop/native/PanelFocusObserver.exe'],
+ npmRebuild:false,
+ electronDist:'node_modules/electron/dist',
+ electronLanguages:['zh-CN','en-US'],
+ electronFuses:{runAsNode:false,enableNodeOptionsEnvironmentVariable:false,enableNodeCliInspectArguments:false,onlyLoadAppFromAsar:true,enableEmbeddedAsarIntegrityValidation:true},
+ win:{icon:'build/icon.ico',target:[{target:'nsis',arch:['x64']},{target:'portable',arch:['x64']}],requestedExecutionLevel:'asInvoker',signExecutable:false},
+ nsis:{artifactName:'${productName}-${version}-安装版-${arch}.${ext}',oneClick:false,perMachine:false,allowElevation:false,allowToChangeInstallationDirectory:true,createDesktopShortcut:true,createStartMenuShortcut:true,shortcutName:'个人健康助手',deleteAppDataOnUninstall:false,runAfterFinish:true,installerLanguages:['zh_CN'],language:'2052'},
+ portable:{artifactName:'${productName}-${version}-免安装版-${arch}.${ext}',requestExecutionLevel:'user'},
+ extraMetadata:{scripts:{}}
+};

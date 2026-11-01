@@ -1,0 +1,33 @@
+{
+  "name": "uric-acid-companion",
+  "version": "0.1.2",
+  "private": true,
+  "description": "个人健康助手：多目标引导、饮食喜好、静默饮水与飞书同步",
+  "author": "日常",
+  "main": "desktop/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node scripts/test-core.js",
+    "test:health": "node scripts/test-health.js",
+    "test:interactions": "node scripts/test-interactions.js",
+    "test:dishes": "node scripts/test-guide-dishes.js",
+    "test:security": "node scripts/test-security.js",
+    "build:icon": "node scripts/build-app-icon.js",
+    "audit:source": "node scripts/audit-release.js --source",
+    "audit:repository": "node scripts/audit-repository.js",
+    "test:release": "node scripts/test-release.js",
+    "release:win": "npm run dist:win && npm run test:release && python scripts/build-portable-zip.py && node scripts/finalize-release.js",
+    "dist:win": "npm run audit:source && npm run build:icon && electron-builder --config electron-builder.config.cjs --win nsis portable --x64 --publish never && node scripts/audit-release.js",
+    "test:cup-motion": "node scripts/test-cup-motion.js",
+    "test:food-art": "node scripts/test-food-art.js",
+    "test:dish-art": "node scripts/test-dish-art.js",
+    "test:tray": "node scripts/test-tray-progress.js",
+    "test:panel": "electron . --verify-panel-only --disable-gpu",
+    "test:ui": "electron . --verify-ui --disable-gpu",
+    "smoke": "electron . --smoke"
+  },
+  "devDependencies": {
+    "electron": "45.2.1",
+    "electron-builder": "26.18.0"
+  }
+}

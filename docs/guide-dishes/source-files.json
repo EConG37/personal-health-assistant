@@ -1,0 +1,29 @@
+{
+  "sourceFiles": [
+    {
+      "sourceId": "gout-guide-2024",
+      "file": "docs/research-handoff/downloads/gout-guide-2024.pdf",
+      "sha256": "1557d1f7ebef8ab7185cbf67bfbd6b1890cbb5d148f56d0728d07647d18e377f"
+    },
+    {
+      "sourceId": "hypertension-guide-2023",
+      "file": "docs/research-handoff/downloads/hypertension-guide-2023.pdf",
+      "sha256": "e6c5227d95d289a810c953d895afc740ae922fc80ed4a8f1d5f4e39a9cd6c000"
+    },
+    {
+      "sourceId": "glucose-guide-2023",
+      "file": "docs/research-handoff/downloads/glucose-guide-2023.pdf",
+      "sha256": "2e03cd9e06b1a1faf67298647a01c5e5d2be9cd99aacb527732c51f1ee378d87"
+    },
+    {
+      "sourceId": "lipids-guide-2023",
+      "file": "docs/research-handoff/downloads/lipids-guide-2023.pdf",
+      "sha256": "595f0f3358c7b96580a548ee93923010b2a2ff672f500e3bf0859344811893d0"
+    },
+    {
+      "sourceId": "obesity-guide-2024",
+      "file": "docs/research-handoff/downloads/obesity-guide-2024.pdf",
+      "sha256": "c0c70502e1c03f2612b322e2dfa8f4a8308c262d41bb4af397dac6c64f5162c7"
+    }
+  ]
+}

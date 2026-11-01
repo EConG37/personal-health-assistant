@@ -1,0 +1,5910 @@
+{
+ "note": "本文件收录本轮从主库撤下的未验证候选值（主要来自《中国食物成分表（标准版）》第6版的通行出版物数值）。仅作为后续补证线索，不得用于营养累计计算或自动推荐。",
+ "count": 392,
+ "items": [
+  {
+   "food_id": "milk_lowfat",
+   "form_id": "milk_lowfat__fluid",
+   "metric": "energy_kcal",
+   "candidate_value": 46,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "milk_lowfat",
+   "form_id": "milk_lowfat__fluid",
+   "metric": "protein_g",
+   "candidate_value": 3.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "milk_lowfat",
+   "form_id": "milk_lowfat__fluid",
+   "metric": "carbohydrate_g",
+   "candidate_value": 5.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "milk_lowfat",
+   "form_id": "milk_lowfat__fluid",
+   "metric": "fat_g",
+   "candidate_value": 1.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "milk_lowfat",
+   "form_id": "milk_lowfat__fluid",
+   "metric": "sodium_mg",
+   "candidate_value": 50,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "milk_lowfat",
+   "form_id": "milk_lowfat__fluid",
+   "metric": "potassium_mg",
+   "candidate_value": 150,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "yogurt_plain",
+   "form_id": "yogurt_plain__plain",
+   "metric": "energy_kcal",
+   "candidate_value": 62,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "yogurt_plain",
+   "form_id": "yogurt_plain__plain",
+   "metric": "protein_g",
+   "candidate_value": 3.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "yogurt_plain",
+   "form_id": "yogurt_plain__plain",
+   "metric": "carbohydrate_g",
+   "candidate_value": 5.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "yogurt_plain",
+   "form_id": "yogurt_plain__plain",
+   "metric": "fat_g",
+   "candidate_value": 2.7,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "yogurt_plain",
+   "form_id": "yogurt_plain__plain",
+   "metric": "sodium_mg",
+   "candidate_value": 40,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "yogurt_greek",
+   "form_id": "yogurt_greek__nonfat",
+   "metric": "energy_kcal",
+   "candidate_value": 59,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "yogurt_greek",
+   "form_id": "yogurt_greek__nonfat",
+   "metric": "protein_g",
+   "candidate_value": 10.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "yogurt_greek",
+   "form_id": "yogurt_greek__nonfat",
+   "metric": "carbohydrate_g",
+   "candidate_value": 3.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "yogurt_greek",
+   "form_id": "yogurt_greek__nonfat",
+   "metric": "fat_g",
+   "candidate_value": 0.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "yogurt_greek",
+   "form_id": "yogurt_greek__nonfat",
+   "metric": "sodium_mg",
+   "candidate_value": 36,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cheese",
+   "form_id": "cheese__natural",
+   "metric": "energy_kcal",
+   "candidate_value": 350,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cheese",
+   "form_id": "cheese__natural",
+   "metric": "protein_g",
+   "candidate_value": 25.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cheese",
+   "form_id": "cheese__natural",
+   "metric": "fat_g",
+   "candidate_value": 33.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cheese",
+   "form_id": "cheese__natural",
+   "metric": "sodium_mg",
+   "candidate_value": null,
+   "candidate_range": [
+    300,
+    1700
+   ],
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "egg",
+   "form_id": "egg__whole_cooked",
+   "metric": "energy_kcal",
+   "candidate_value": 143,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "egg",
+   "form_id": "egg__whole_cooked",
+   "metric": "protein_g",
+   "candidate_value": 13.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "egg",
+   "form_id": "egg__whole_cooked",
+   "metric": "fat_g",
+   "candidate_value": 8.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "egg",
+   "form_id": "egg__whole_cooked",
+   "metric": "saturated_fat_g",
+   "candidate_value": 2.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "egg",
+   "form_id": "egg__whole_cooked",
+   "metric": "cholesterol_mg",
+   "candidate_value": 585,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "egg",
+   "form_id": "egg__whole_cooked",
+   "metric": "sodium_mg",
+   "candidate_value": 131,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "egg_white",
+   "form_id": "egg_white__cooked",
+   "metric": "energy_kcal",
+   "candidate_value": 52,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "egg_white",
+   "form_id": "egg_white__cooked",
+   "metric": "protein_g",
+   "candidate_value": 11.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "egg_white",
+   "form_id": "egg_white__cooked",
+   "metric": "fat_g",
+   "candidate_value": 0.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "egg_white",
+   "form_id": "egg_white__cooked",
+   "metric": "cholesterol_mg",
+   "candidate_value": 0,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "egg_white",
+   "form_id": "egg_white__cooked",
+   "metric": "sodium_mg",
+   "candidate_value": 166,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "rice_white",
+   "form_id": "rice_white__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 346,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "rice_white",
+   "form_id": "rice_white__raw",
+   "metric": "protein_g",
+   "candidate_value": 7.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "rice_white",
+   "form_id": "rice_white__raw",
+   "metric": "carbohydrate_g",
+   "candidate_value": 77.9,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "rice_white",
+   "form_id": "rice_white__raw",
+   "metric": "fiber_g",
+   "candidate_value": 0.7,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "rice_white",
+   "form_id": "rice_white__raw",
+   "metric": "sodium_mg",
+   "candidate_value": 3.8,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "rice_white",
+   "form_id": "rice_white__cooked",
+   "metric": "energy_kcal",
+   "candidate_value": 116,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "rice_white",
+   "form_id": "rice_white__cooked",
+   "metric": "protein_g",
+   "candidate_value": 2.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "rice_white",
+   "form_id": "rice_white__cooked",
+   "metric": "carbohydrate_g",
+   "candidate_value": 25.9,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "rice_white",
+   "form_id": "rice_white__cooked",
+   "metric": "fiber_g",
+   "candidate_value": 0.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "rice_white",
+   "form_id": "rice_white__cooked",
+   "metric": "glycemic_index",
+   "candidate_value": 83,
+   "candidate_range": [
+    73,
+    89
+   ],
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "rice_mixed",
+   "form_id": "rice_mixed__cooked",
+   "metric": "energy_kcal",
+   "candidate_value": 124,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "rice_mixed",
+   "form_id": "rice_mixed__cooked",
+   "metric": "protein_g",
+   "candidate_value": 3.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "rice_mixed",
+   "form_id": "rice_mixed__cooked",
+   "metric": "carbohydrate_g",
+   "candidate_value": 25.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "rice_mixed",
+   "form_id": "rice_mixed__cooked",
+   "metric": "fiber_g",
+   "candidate_value": 1.5,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "noodle",
+   "form_id": "noodle__dried",
+   "metric": "energy_kcal",
+   "candidate_value": 353,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "noodle",
+   "form_id": "noodle__dried",
+   "metric": "protein_g",
+   "candidate_value": 9.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "noodle",
+   "form_id": "noodle__dried",
+   "metric": "carbohydrate_g",
+   "candidate_value": 75.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "noodle",
+   "form_id": "noodle__dried",
+   "metric": "sodium_mg",
+   "candidate_value": 650,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "noodle",
+   "form_id": "noodle__boiled",
+   "metric": "energy_kcal",
+   "candidate_value": 110,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "noodle",
+   "form_id": "noodle__boiled",
+   "metric": "protein_g",
+   "candidate_value": 4.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "noodle",
+   "form_id": "noodle__boiled",
+   "metric": "carbohydrate_g",
+   "candidate_value": 24.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "noodle",
+   "form_id": "noodle__boiled",
+   "metric": "sodium_mg",
+   "candidate_value": 2,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "noodle",
+   "form_id": "noodle__boiled",
+   "metric": "glycemic_index",
+   "candidate_value": 55,
+   "candidate_range": null,
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "bread_whole",
+   "form_id": "bread_whole__sliced",
+   "metric": "energy_kcal",
+   "candidate_value": 246,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "bread_whole",
+   "form_id": "bread_whole__sliced",
+   "metric": "protein_g",
+   "candidate_value": 9.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "bread_whole",
+   "form_id": "bread_whole__sliced",
+   "metric": "carbohydrate_g",
+   "candidate_value": 41.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "bread_whole",
+   "form_id": "bread_whole__sliced",
+   "metric": "fiber_g",
+   "candidate_value": 6.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "bread_whole",
+   "form_id": "bread_whole__sliced",
+   "metric": "sodium_mg",
+   "candidate_value": 450,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "bread_whole",
+   "form_id": "bread_whole__sliced",
+   "metric": "glycemic_index",
+   "candidate_value": 69,
+   "candidate_range": null,
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "oats",
+   "form_id": "oats__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 367,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "oats",
+   "form_id": "oats__raw",
+   "metric": "protein_g",
+   "candidate_value": 13.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "oats",
+   "form_id": "oats__raw",
+   "metric": "carbohydrate_g",
+   "candidate_value": 66.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "oats",
+   "form_id": "oats__raw",
+   "metric": "fiber_g",
+   "candidate_value": 10.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "oats",
+   "form_id": "oats__raw",
+   "metric": "fat_g",
+   "candidate_value": 6.9,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "oats",
+   "form_id": "oats__raw",
+   "metric": "sodium_mg",
+   "candidate_value": 2,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "oats",
+   "form_id": "oats__raw",
+   "metric": "glycemic_index",
+   "candidate_value": 55,
+   "candidate_range": [
+    55,
+    79
+   ],
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sweet_potato",
+   "form_id": "sweet_potato__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 86,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sweet_potato",
+   "form_id": "sweet_potato__raw",
+   "metric": "protein_g",
+   "candidate_value": 1.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sweet_potato",
+   "form_id": "sweet_potato__raw",
+   "metric": "carbohydrate_g",
+   "candidate_value": 20.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sweet_potato",
+   "form_id": "sweet_potato__raw",
+   "metric": "fiber_g",
+   "candidate_value": 3.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sweet_potato",
+   "form_id": "sweet_potato__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 337,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "corn",
+   "form_id": "corn__fresh",
+   "metric": "energy_kcal",
+   "candidate_value": 112,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "corn",
+   "form_id": "corn__fresh",
+   "metric": "protein_g",
+   "candidate_value": 4.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "corn",
+   "form_id": "corn__fresh",
+   "metric": "carbohydrate_g",
+   "candidate_value": 22.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "corn",
+   "form_id": "corn__fresh",
+   "metric": "fiber_g",
+   "candidate_value": 2.9,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "corn",
+   "form_id": "corn__fresh",
+   "metric": "glycemic_index",
+   "candidate_value": 55,
+   "candidate_range": null,
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "corn",
+   "form_id": "corn__meal",
+   "metric": "energy_kcal",
+   "candidate_value": 365,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "potato",
+   "form_id": "potato__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 81,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "potato",
+   "form_id": "potato__raw",
+   "metric": "protein_g",
+   "candidate_value": 2.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "potato",
+   "form_id": "potato__raw",
+   "metric": "carbohydrate_g",
+   "candidate_value": 17.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "potato",
+   "form_id": "potato__raw",
+   "metric": "fiber_g",
+   "candidate_value": 1.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "potato",
+   "form_id": "potato__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 342,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "potato",
+   "form_id": "potato__raw",
+   "metric": "sodium_mg",
+   "candidate_value": 2.7,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "potato",
+   "form_id": "potato__boiled",
+   "metric": "glycemic_index",
+   "candidate_value": 78,
+   "candidate_range": [
+    66,
+    87
+   ],
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "congee_rice",
+   "form_id": "congee_rice__cooked",
+   "metric": "energy_kcal",
+   "candidate_value": 46,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "congee_rice",
+   "form_id": "congee_rice__cooked",
+   "metric": "protein_g",
+   "candidate_value": 1.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "congee_rice",
+   "form_id": "congee_rice__cooked",
+   "metric": "carbohydrate_g",
+   "candidate_value": 9.9,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "congee_rice",
+   "form_id": "congee_rice__cooked",
+   "metric": "fiber_g",
+   "candidate_value": 0.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "congee_rice",
+   "form_id": "congee_rice__cooked",
+   "metric": "glycemic_index",
+   "candidate_value": 78,
+   "candidate_range": [
+    69,
+    88
+   ],
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "congee_millet",
+   "form_id": "congee_millet__cooked",
+   "metric": "energy_kcal",
+   "candidate_value": 46,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "congee_millet",
+   "form_id": "congee_millet__cooked",
+   "metric": "protein_g",
+   "candidate_value": 1.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "congee_millet",
+   "form_id": "congee_millet__cooked",
+   "metric": "carbohydrate_g",
+   "candidate_value": 8.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "congee_millet",
+   "form_id": "congee_millet__cooked",
+   "metric": "fiber_g",
+   "candidate_value": 0.7,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "congee_millet",
+   "form_id": "congee_millet__cooked",
+   "metric": "glycemic_index",
+   "candidate_value": 61,
+   "candidate_range": null,
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "congee_millet",
+   "form_id": "congee_millet__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 355,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "yam",
+   "form_id": "yam__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 57,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "yam",
+   "form_id": "yam__raw",
+   "metric": "protein_g",
+   "candidate_value": 1.9,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "yam",
+   "form_id": "yam__raw",
+   "metric": "carbohydrate_g",
+   "candidate_value": 12.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "yam",
+   "form_id": "yam__raw",
+   "metric": "fiber_g",
+   "candidate_value": 0.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "yam",
+   "form_id": "yam__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 213,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "yam",
+   "form_id": "yam__raw",
+   "metric": "glycemic_index",
+   "candidate_value": 51,
+   "candidate_range": null,
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pumpkin",
+   "form_id": "pumpkin__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 23,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pumpkin",
+   "form_id": "pumpkin__raw",
+   "metric": "protein_g",
+   "candidate_value": 0.7,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pumpkin",
+   "form_id": "pumpkin__raw",
+   "metric": "carbohydrate_g",
+   "candidate_value": 4.5,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pumpkin",
+   "form_id": "pumpkin__raw",
+   "metric": "fiber_g",
+   "candidate_value": 0.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pumpkin",
+   "form_id": "pumpkin__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 145,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pumpkin",
+   "form_id": "pumpkin__raw",
+   "metric": "glycemic_index",
+   "candidate_value": 75,
+   "candidate_range": null,
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lotus_root",
+   "form_id": "lotus_root__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 47,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lotus_root",
+   "form_id": "lotus_root__raw",
+   "metric": "protein_g",
+   "candidate_value": 1.9,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lotus_root",
+   "form_id": "lotus_root__raw",
+   "metric": "fiber_g",
+   "candidate_value": 2.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lotus_root",
+   "form_id": "lotus_root__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 243,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "broccoli",
+   "form_id": "broccoli__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 36,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "broccoli",
+   "form_id": "broccoli__raw",
+   "metric": "protein_g",
+   "candidate_value": 4.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "broccoli",
+   "form_id": "broccoli__raw",
+   "metric": "fiber_g",
+   "candidate_value": 1.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "broccoli",
+   "form_id": "broccoli__raw",
+   "metric": "sodium_mg",
+   "candidate_value": 33,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cucumber",
+   "form_id": "cucumber__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 16,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cucumber",
+   "form_id": "cucumber__raw",
+   "metric": "protein_g",
+   "candidate_value": 0.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cucumber",
+   "form_id": "cucumber__raw",
+   "metric": "fiber_g",
+   "candidate_value": 0.5,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cucumber",
+   "form_id": "cucumber__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 102,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "tomato",
+   "form_id": "tomato__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 20,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "tomato",
+   "form_id": "tomato__raw",
+   "metric": "protein_g",
+   "candidate_value": 0.9,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "tomato",
+   "form_id": "tomato__raw",
+   "metric": "fiber_g",
+   "candidate_value": 0.5,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "tomato",
+   "form_id": "tomato__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 163,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cabbage",
+   "form_id": "cabbage__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 13,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cabbage",
+   "form_id": "cabbage__raw",
+   "metric": "protein_g",
+   "candidate_value": 1.5,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cabbage",
+   "form_id": "cabbage__raw",
+   "metric": "fiber_g",
+   "candidate_value": 0.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cabbage",
+   "form_id": "cabbage__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 130,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "carrot",
+   "form_id": "carrot__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 39,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "carrot",
+   "form_id": "carrot__raw",
+   "metric": "protein_g",
+   "candidate_value": 1.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "carrot",
+   "form_id": "carrot__raw",
+   "metric": "fiber_g",
+   "candidate_value": 1.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "carrot",
+   "form_id": "carrot__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 190,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "carrot",
+   "form_id": "carrot__raw",
+   "metric": "glycemic_index",
+   "candidate_value": 39,
+   "candidate_range": null,
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lettuce",
+   "form_id": "lettuce__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 13,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lettuce",
+   "form_id": "lettuce__raw",
+   "metric": "protein_g",
+   "candidate_value": 1.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lettuce",
+   "form_id": "lettuce__raw",
+   "metric": "fiber_g",
+   "candidate_value": 0.7,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lettuce",
+   "form_id": "lettuce__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 194,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pepper_green",
+   "form_id": "pepper_green__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 23,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pepper_green",
+   "form_id": "pepper_green__raw",
+   "metric": "protein_g",
+   "candidate_value": 1.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pepper_green",
+   "form_id": "pepper_green__raw",
+   "metric": "fiber_g",
+   "candidate_value": 1.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pepper_green",
+   "form_id": "pepper_green__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 142,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "spinach",
+   "form_id": "spinach__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 24,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "spinach",
+   "form_id": "spinach__raw",
+   "metric": "protein_g",
+   "candidate_value": 2.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "spinach",
+   "form_id": "spinach__raw",
+   "metric": "fiber_g",
+   "candidate_value": 1.7,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "spinach",
+   "form_id": "spinach__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 311,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "mushroom_fresh",
+   "form_id": "mushroom_fresh__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 24,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "mushroom_fresh",
+   "form_id": "mushroom_fresh__raw",
+   "metric": "protein_g",
+   "candidate_value": 2.7,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "mushroom_fresh",
+   "form_id": "mushroom_fresh__raw",
+   "metric": "fiber_g",
+   "candidate_value": 2.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "mushroom_fresh",
+   "form_id": "mushroom_fresh__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 318,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "winter_melon",
+   "form_id": "winter_melon__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 11,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "winter_melon",
+   "form_id": "winter_melon__raw",
+   "metric": "protein_g",
+   "candidate_value": 0.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "winter_melon",
+   "form_id": "winter_melon__raw",
+   "metric": "fiber_g",
+   "candidate_value": 0.7,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "winter_melon",
+   "form_id": "winter_melon__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 78,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "celtuce",
+   "form_id": "celtuce__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 15,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "celtuce",
+   "form_id": "celtuce__raw",
+   "metric": "protein_g",
+   "candidate_value": 1.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "celtuce",
+   "form_id": "celtuce__raw",
+   "metric": "fiber_g",
+   "candidate_value": 0.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "celtuce",
+   "form_id": "celtuce__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 212,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cabbage_round",
+   "form_id": "cabbage_round__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 22,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cabbage_round",
+   "form_id": "cabbage_round__raw",
+   "metric": "protein_g",
+   "candidate_value": 1.5,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cabbage_round",
+   "form_id": "cabbage_round__raw",
+   "metric": "fiber_g",
+   "candidate_value": 1.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cabbage_round",
+   "form_id": "cabbage_round__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 124,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "onion",
+   "form_id": "onion__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 40,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "onion",
+   "form_id": "onion__raw",
+   "metric": "protein_g",
+   "candidate_value": 1.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "onion",
+   "form_id": "onion__raw",
+   "metric": "fiber_g",
+   "candidate_value": 0.9,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "onion",
+   "form_id": "onion__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 146,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "eggplant",
+   "form_id": "eggplant__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 23,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "eggplant",
+   "form_id": "eggplant__raw",
+   "metric": "protein_g",
+   "candidate_value": 1.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "eggplant",
+   "form_id": "eggplant__raw",
+   "metric": "fiber_g",
+   "candidate_value": 1.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "eggplant",
+   "form_id": "eggplant__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 142,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "celery",
+   "form_id": "celery__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 16,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "celery",
+   "form_id": "celery__raw",
+   "metric": "protein_g",
+   "candidate_value": 0.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "celery",
+   "form_id": "celery__raw",
+   "metric": "fiber_g",
+   "candidate_value": 1.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "celery",
+   "form_id": "celery__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 163,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "celery",
+   "form_id": "celery__raw",
+   "metric": "sodium_mg",
+   "candidate_value": 80,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "asparagus",
+   "form_id": "asparagus__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 20,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "asparagus",
+   "form_id": "asparagus__raw",
+   "metric": "protein_g",
+   "candidate_value": 1.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "asparagus",
+   "form_id": "asparagus__raw",
+   "metric": "fiber_g",
+   "candidate_value": 2.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "asparagus",
+   "form_id": "asparagus__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 202,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "bok_choy",
+   "form_id": "bok_choy__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 15,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "bok_choy",
+   "form_id": "bok_choy__raw",
+   "metric": "protein_g",
+   "candidate_value": 1.5,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "bok_choy",
+   "form_id": "bok_choy__raw",
+   "metric": "fiber_g",
+   "candidate_value": 1.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "bok_choy",
+   "form_id": "bok_choy__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 178,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "zucchini",
+   "form_id": "zucchini__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 17,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "zucchini",
+   "form_id": "zucchini__raw",
+   "metric": "protein_g",
+   "candidate_value": 1.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "zucchini",
+   "form_id": "zucchini__raw",
+   "metric": "fiber_g",
+   "candidate_value": 0.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "zucchini",
+   "form_id": "zucchini__raw",
+   "metric": "potassium_mg",
+   "candidate_value": 261,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "kelp",
+   "form_id": "kelp__fresh",
+   "metric": "energy_kcal",
+   "candidate_value": 13,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "kelp",
+   "form_id": "kelp__fresh",
+   "metric": "protein_g",
+   "candidate_value": 1.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "kelp",
+   "form_id": "kelp__fresh",
+   "metric": "fiber_g",
+   "candidate_value": 0.9,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "kelp",
+   "form_id": "kelp__fresh",
+   "metric": "potassium_mg",
+   "candidate_value": 246,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "seaweed_dried",
+   "form_id": "seaweed_dried__dried",
+   "metric": "energy_kcal",
+   "candidate_value": 250,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "seaweed_dried",
+   "form_id": "seaweed_dried__dried",
+   "metric": "protein_g",
+   "candidate_value": 26.7,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "seaweed_dried",
+   "form_id": "seaweed_dried__dried",
+   "metric": "fiber_g",
+   "candidate_value": 21.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "tofu",
+   "form_id": "tofu__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 82,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "tofu",
+   "form_id": "tofu__raw",
+   "metric": "protein_g",
+   "candidate_value": 8.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "tofu",
+   "form_id": "tofu__raw",
+   "metric": "fat_g",
+   "candidate_value": 3.7,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "tofu_dry",
+   "form_id": "tofu_dry__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 152,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "tofu_dry",
+   "form_id": "tofu_dry__raw",
+   "metric": "protein_g",
+   "candidate_value": 16.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "tofu_dry",
+   "form_id": "tofu_dry__raw",
+   "metric": "fat_g",
+   "candidate_value": 7.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "tofu_dry",
+   "form_id": "tofu_dry__raw",
+   "metric": "sodium_mg",
+   "candidate_value": 76,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "soy_milk",
+   "form_id": "soy_milk__commercial",
+   "metric": "energy_kcal",
+   "candidate_value": 16,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "soy_milk",
+   "form_id": "soy_milk__commercial",
+   "metric": "protein_g",
+   "candidate_value": 1.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "soy_milk",
+   "form_id": "soy_milk__commercial",
+   "metric": "carbohydrate_g",
+   "candidate_value": 1.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "soy_milk",
+   "form_id": "soy_milk__commercial",
+   "metric": "fat_g",
+   "candidate_value": 0.7,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "tofu_soft",
+   "form_id": "tofu_soft__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 49,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "tofu_soft",
+   "form_id": "tofu_soft__raw",
+   "metric": "protein_g",
+   "candidate_value": 5.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "tofu_soft",
+   "form_id": "tofu_soft__raw",
+   "metric": "fat_g",
+   "candidate_value": 1.9,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "tofu_soft",
+   "form_id": "tofu_soft__raw",
+   "metric": "sodium_mg",
+   "candidate_value": 6,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "edamame",
+   "form_id": "edamame__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 131,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "edamame",
+   "form_id": "edamame__raw",
+   "metric": "protein_g",
+   "candidate_value": 13.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "edamame",
+   "form_id": "edamame__raw",
+   "metric": "fat_g",
+   "candidate_value": 5.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "edamame",
+   "form_id": "edamame__raw",
+   "metric": "sodium_mg",
+   "candidate_value": 6,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "edamame",
+   "form_id": "edamame__raw",
+   "metric": "fiber_g",
+   "candidate_value": 4.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "chicken_breast",
+   "form_id": "chicken_breast__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 133,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "chicken_breast",
+   "form_id": "chicken_breast__raw",
+   "metric": "protein_g",
+   "candidate_value": 19.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "chicken_breast",
+   "form_id": "chicken_breast__raw",
+   "metric": "fat_g",
+   "candidate_value": 5.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "chicken_breast",
+   "form_id": "chicken_breast__raw",
+   "metric": "saturated_fat_g",
+   "candidate_value": 1.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "chicken_breast",
+   "form_id": "chicken_breast__raw",
+   "metric": "cholesterol_mg",
+   "candidate_value": 82,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "chicken_breast",
+   "form_id": "chicken_breast__raw",
+   "metric": "sodium_mg",
+   "candidate_value": 63,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "chicken_leg",
+   "form_id": "chicken_leg__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 145,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "chicken_leg",
+   "form_id": "chicken_leg__raw",
+   "metric": "protein_g",
+   "candidate_value": 18.5,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "chicken_leg",
+   "form_id": "chicken_leg__raw",
+   "metric": "fat_g",
+   "candidate_value": 7.9,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "chicken_leg",
+   "form_id": "chicken_leg__raw",
+   "metric": "saturated_fat_g",
+   "candidate_value": 2.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "chicken_leg",
+   "form_id": "chicken_leg__raw",
+   "metric": "cholesterol_mg",
+   "candidate_value": 99,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "chicken_leg",
+   "form_id": "chicken_leg__raw",
+   "metric": "sodium_mg",
+   "candidate_value": 70,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pork_lean",
+   "form_id": "pork_lean__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 143,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pork_lean",
+   "form_id": "pork_lean__raw",
+   "metric": "protein_g",
+   "candidate_value": 20.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pork_lean",
+   "form_id": "pork_lean__raw",
+   "metric": "fat_g",
+   "candidate_value": 6.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pork_lean",
+   "form_id": "pork_lean__raw",
+   "metric": "saturated_fat_g",
+   "candidate_value": 2.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pork_lean",
+   "form_id": "pork_lean__raw",
+   "metric": "cholesterol_mg",
+   "candidate_value": 81,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pork_lean",
+   "form_id": "pork_lean__raw",
+   "metric": "sodium_mg",
+   "candidate_value": 57,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "beef_lean",
+   "form_id": "beef_lean__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 113,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "beef_lean",
+   "form_id": "beef_lean__raw",
+   "metric": "protein_g",
+   "candidate_value": 20.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "beef_lean",
+   "form_id": "beef_lean__raw",
+   "metric": "fat_g",
+   "candidate_value": 2.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "beef_lean",
+   "form_id": "beef_lean__raw",
+   "metric": "saturated_fat_g",
+   "candidate_value": 1.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "beef_lean",
+   "form_id": "beef_lean__raw",
+   "metric": "cholesterol_mg",
+   "candidate_value": 58,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "beef_lean",
+   "form_id": "beef_lean__raw",
+   "metric": "sodium_mg",
+   "candidate_value": 60,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lamb_lean",
+   "form_id": "lamb_lean__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 118,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lamb_lean",
+   "form_id": "lamb_lean__raw",
+   "metric": "protein_g",
+   "candidate_value": 19.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lamb_lean",
+   "form_id": "lamb_lean__raw",
+   "metric": "fat_g",
+   "candidate_value": 3.9,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lamb_lean",
+   "form_id": "lamb_lean__raw",
+   "metric": "saturated_fat_g",
+   "candidate_value": 1.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lamb_lean",
+   "form_id": "lamb_lean__raw",
+   "metric": "cholesterol_mg",
+   "candidate_value": 60,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lamb_lean",
+   "form_id": "lamb_lean__raw",
+   "metric": "sodium_mg",
+   "candidate_value": 65,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "fish_cod",
+   "form_id": "fish_cod__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 88,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "fish_cod",
+   "form_id": "fish_cod__raw",
+   "metric": "protein_g",
+   "candidate_value": 20.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "fish_cod",
+   "form_id": "fish_cod__raw",
+   "metric": "fat_g",
+   "candidate_value": 0.5,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "fish_cod",
+   "form_id": "fish_cod__raw",
+   "metric": "cholesterol_mg",
+   "candidate_value": 43,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "fish_cod",
+   "form_id": "fish_cod__raw",
+   "metric": "sodium_mg",
+   "candidate_value": 54,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "fish_bass",
+   "form_id": "fish_bass__river_raw",
+   "metric": "energy_kcal",
+   "candidate_value": 105,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "fish_bass",
+   "form_id": "fish_bass__river_raw",
+   "metric": "protein_g",
+   "candidate_value": 18.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "fish_bass",
+   "form_id": "fish_bass__river_raw",
+   "metric": "fat_g",
+   "candidate_value": 3.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "fish_bass",
+   "form_id": "fish_bass__river_raw",
+   "metric": "cholesterol_mg",
+   "candidate_value": 86,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "shrimp",
+   "form_id": "shrimp__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 93,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "shrimp",
+   "form_id": "shrimp__raw",
+   "metric": "protein_g",
+   "candidate_value": 18.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "shrimp",
+   "form_id": "shrimp__raw",
+   "metric": "fat_g",
+   "candidate_value": 0.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "shrimp",
+   "form_id": "shrimp__raw",
+   "metric": "saturated_fat_g",
+   "candidate_value": 0.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "shrimp",
+   "form_id": "shrimp__raw",
+   "metric": "cholesterol_mg",
+   "candidate_value": 193,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "shrimp",
+   "form_id": "shrimp__raw",
+   "metric": "sodium_mg",
+   "candidate_value": 165,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cherry",
+   "form_id": "cherry__fresh",
+   "metric": "energy_kcal",
+   "candidate_value": 46,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cherry",
+   "form_id": "cherry__fresh",
+   "metric": "carbohydrate_g",
+   "candidate_value": 10.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cherry",
+   "form_id": "cherry__fresh",
+   "metric": "total_sugars_g",
+   "candidate_value": 8.5,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cherry",
+   "form_id": "cherry__fresh",
+   "metric": "fiber_g",
+   "candidate_value": 0.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "cherry",
+   "form_id": "cherry__fresh",
+   "metric": "glycemic_index",
+   "candidate_value": 22,
+   "candidate_range": null,
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "apple",
+   "form_id": "apple__fresh",
+   "metric": "energy_kcal",
+   "candidate_value": 52,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "apple",
+   "form_id": "apple__fresh",
+   "metric": "carbohydrate_g",
+   "candidate_value": 13.5,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "apple",
+   "form_id": "apple__fresh",
+   "metric": "total_sugars_g",
+   "candidate_value": 10.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "apple",
+   "form_id": "apple__fresh",
+   "metric": "fiber_g",
+   "candidate_value": 2.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "apple",
+   "form_id": "apple__fresh",
+   "metric": "glycemic_index",
+   "candidate_value": 36,
+   "candidate_range": null,
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "blueberry",
+   "form_id": "blueberry__fresh",
+   "metric": "energy_kcal",
+   "candidate_value": 57,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "blueberry",
+   "form_id": "blueberry__fresh",
+   "metric": "carbohydrate_g",
+   "candidate_value": 14.5,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "blueberry",
+   "form_id": "blueberry__fresh",
+   "metric": "total_sugars_g",
+   "candidate_value": 10.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "blueberry",
+   "form_id": "blueberry__fresh",
+   "metric": "fiber_g",
+   "candidate_value": 2.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "blueberry",
+   "form_id": "blueberry__fresh",
+   "metric": "glycemic_index",
+   "candidate_value": 53,
+   "candidate_range": null,
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pear",
+   "form_id": "pear__fresh",
+   "metric": "energy_kcal",
+   "candidate_value": 44,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pear",
+   "form_id": "pear__fresh",
+   "metric": "carbohydrate_g",
+   "candidate_value": 13.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pear",
+   "form_id": "pear__fresh",
+   "metric": "total_sugars_g",
+   "candidate_value": 9.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pear",
+   "form_id": "pear__fresh",
+   "metric": "fiber_g",
+   "candidate_value": 3.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "pear",
+   "form_id": "pear__fresh",
+   "metric": "glycemic_index",
+   "candidate_value": 36,
+   "candidate_range": null,
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "orange",
+   "form_id": "orange__fresh",
+   "metric": "energy_kcal",
+   "candidate_value": 47,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "orange",
+   "form_id": "orange__fresh",
+   "metric": "carbohydrate_g",
+   "candidate_value": 11.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "orange",
+   "form_id": "orange__fresh",
+   "metric": "total_sugars_g",
+   "candidate_value": 9.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "orange",
+   "form_id": "orange__fresh",
+   "metric": "fiber_g",
+   "candidate_value": 2.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "orange",
+   "form_id": "orange__fresh",
+   "metric": "glycemic_index",
+   "candidate_value": 43,
+   "candidate_range": null,
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "banana",
+   "form_id": "banana__fresh",
+   "metric": "energy_kcal",
+   "candidate_value": 91,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "banana",
+   "form_id": "banana__fresh",
+   "metric": "carbohydrate_g",
+   "candidate_value": 22.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "banana",
+   "form_id": "banana__fresh",
+   "metric": "total_sugars_g",
+   "candidate_value": 12.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "banana",
+   "form_id": "banana__fresh",
+   "metric": "fiber_g",
+   "candidate_value": 2.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "banana",
+   "form_id": "banana__fresh",
+   "metric": "potassium_mg",
+   "candidate_value": 358,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "banana",
+   "form_id": "banana__fresh",
+   "metric": "glycemic_index",
+   "candidate_value": 51,
+   "candidate_range": null,
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "watermelon",
+   "form_id": "watermelon__fresh",
+   "metric": "energy_kcal",
+   "candidate_value": 30,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "watermelon",
+   "form_id": "watermelon__fresh",
+   "metric": "carbohydrate_g",
+   "candidate_value": 7.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "watermelon",
+   "form_id": "watermelon__fresh",
+   "metric": "total_sugars_g",
+   "candidate_value": 6.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "watermelon",
+   "form_id": "watermelon__fresh",
+   "metric": "fiber_g",
+   "candidate_value": 0.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "watermelon",
+   "form_id": "watermelon__fresh",
+   "metric": "potassium_mg",
+   "candidate_value": 112,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "watermelon",
+   "form_id": "watermelon__fresh",
+   "metric": "glycemic_index",
+   "candidate_value": 72,
+   "candidate_range": null,
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "grape",
+   "form_id": "grape__fresh",
+   "metric": "energy_kcal",
+   "candidate_value": 44,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "grape",
+   "form_id": "grape__fresh",
+   "metric": "carbohydrate_g",
+   "candidate_value": 10.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "grape",
+   "form_id": "grape__fresh",
+   "metric": "total_sugars_g",
+   "candidate_value": 16.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "grape",
+   "form_id": "grape__fresh",
+   "metric": "fiber_g",
+   "candidate_value": 0.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "grape",
+   "form_id": "grape__fresh",
+   "metric": "glycemic_index",
+   "candidate_value": 43,
+   "candidate_range": null,
+   "unit": "unitless",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "GI国际表2021（未能核对具体条目，仅存候选）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lychee",
+   "form_id": "lychee__fresh",
+   "metric": "energy_kcal",
+   "candidate_value": 71,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lychee",
+   "form_id": "lychee__fresh",
+   "metric": "carbohydrate_g",
+   "candidate_value": 16.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lychee",
+   "form_id": "lychee__fresh",
+   "metric": "total_sugars_g",
+   "candidate_value": 15.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "lychee",
+   "form_id": "lychee__fresh",
+   "metric": "fiber_g",
+   "candidate_value": 1.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "coffee",
+   "form_id": "coffee__black",
+   "metric": "energy_kcal",
+   "candidate_value": 1,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "coffee",
+   "form_id": "coffee__black",
+   "metric": "protein_g",
+   "candidate_value": 0.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "tea_green",
+   "form_id": "tea_green__brewed",
+   "metric": "energy_kcal",
+   "candidate_value": 0,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "water",
+   "form_id": "water__plain",
+   "metric": "energy_kcal",
+   "candidate_value": 0,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "walnut",
+   "form_id": "walnut__dried",
+   "metric": "energy_kcal",
+   "candidate_value": 654,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "walnut",
+   "form_id": "walnut__dried",
+   "metric": "protein_g",
+   "candidate_value": 15.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "walnut",
+   "form_id": "walnut__dried",
+   "metric": "fat_g",
+   "candidate_value": 65.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "walnut",
+   "form_id": "walnut__dried",
+   "metric": "saturated_fat_g",
+   "candidate_value": 6.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "walnut",
+   "form_id": "walnut__dried",
+   "metric": "fiber_g",
+   "candidate_value": 6.7,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "almond",
+   "form_id": "almond__dried",
+   "metric": "energy_kcal",
+   "candidate_value": 589,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "almond",
+   "form_id": "almond__dried",
+   "metric": "protein_g",
+   "candidate_value": 22.5,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "almond",
+   "form_id": "almond__dried",
+   "metric": "fat_g",
+   "candidate_value": 49.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "almond",
+   "form_id": "almond__dried",
+   "metric": "saturated_fat_g",
+   "candidate_value": 3.9,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "almond",
+   "form_id": "almond__dried",
+   "metric": "fiber_g",
+   "candidate_value": 11.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "olive_oil",
+   "form_id": "olive_oil__extra_virgin",
+   "metric": "energy_kcal",
+   "candidate_value": 899,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "olive_oil",
+   "form_id": "olive_oil__extra_virgin",
+   "metric": "fat_g",
+   "candidate_value": 99.9,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "olive_oil",
+   "form_id": "olive_oil__extra_virgin",
+   "metric": "saturated_fat_g",
+   "candidate_value": 14.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "liver_pork",
+   "form_id": "liver_pork__main",
+   "metric": "energy_kcal",
+   "candidate_value": 126,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "liver_pork",
+   "form_id": "liver_pork__main",
+   "metric": "protein_g",
+   "candidate_value": 19.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "liver_pork",
+   "form_id": "liver_pork__main",
+   "metric": "fat_g",
+   "candidate_value": 3.5,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "liver_pork",
+   "form_id": "liver_pork__main",
+   "metric": "saturated_fat_g",
+   "candidate_value": 1.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "liver_pork",
+   "form_id": "liver_pork__main",
+   "metric": "cholesterol_mg",
+   "candidate_value": 288,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "liver_pork",
+   "form_id": "liver_pork__main",
+   "metric": "sodium_mg",
+   "candidate_value": 68,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "liver_duck",
+   "form_id": "liver_duck__main",
+   "metric": "energy_kcal",
+   "candidate_value": 128,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "liver_duck",
+   "form_id": "liver_duck__main",
+   "metric": "protein_g",
+   "candidate_value": 17.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "liver_duck",
+   "form_id": "liver_duck__main",
+   "metric": "fat_g",
+   "candidate_value": 4.7,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "liver_duck",
+   "form_id": "liver_duck__main",
+   "metric": "saturated_fat_g",
+   "candidate_value": 1.5,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "liver_duck",
+   "form_id": "liver_duck__main",
+   "metric": "cholesterol_mg",
+   "candidate_value": 341,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "liver_duck",
+   "form_id": "liver_duck__main",
+   "metric": "sodium_mg",
+   "candidate_value": 72,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "kidney",
+   "form_id": "kidney__main",
+   "metric": "energy_kcal",
+   "candidate_value": 96,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "kidney",
+   "form_id": "kidney__main",
+   "metric": "protein_g",
+   "candidate_value": 15.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "kidney",
+   "form_id": "kidney__main",
+   "metric": "fat_g",
+   "candidate_value": 3.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "kidney",
+   "form_id": "kidney__main",
+   "metric": "saturated_fat_g",
+   "candidate_value": 1.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "kidney",
+   "form_id": "kidney__main",
+   "metric": "cholesterol_mg",
+   "candidate_value": 354,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "kidney",
+   "form_id": "kidney__main",
+   "metric": "sodium_mg",
+   "candidate_value": 70,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "soup_rich",
+   "form_id": "soup_rich__meat_soup",
+   "metric": "protein_g",
+   "candidate_value": 3.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sardine",
+   "form_id": "sardine__main",
+   "metric": "energy_kcal",
+   "candidate_value": 208,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sardine",
+   "form_id": "sardine__main",
+   "metric": "protein_g",
+   "candidate_value": 19.8,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sardine",
+   "form_id": "sardine__main",
+   "metric": "fat_g",
+   "candidate_value": 10.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sardine",
+   "form_id": "sardine__main",
+   "metric": "saturated_fat_g",
+   "candidate_value": 2.7,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sardine",
+   "form_id": "sardine__main",
+   "metric": "cholesterol_mg",
+   "candidate_value": 142,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sardine",
+   "form_id": "sardine__main",
+   "metric": "sodium_mg",
+   "candidate_value": 90,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "anchovy",
+   "form_id": "anchovy__canned",
+   "metric": "energy_kcal",
+   "candidate_value": 210,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "anchovy",
+   "form_id": "anchovy__canned",
+   "metric": "protein_g",
+   "candidate_value": 20.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "anchovy",
+   "form_id": "anchovy__canned",
+   "metric": "sodium_mg",
+   "candidate_value": 800,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "oyster",
+   "form_id": "oyster__main",
+   "metric": "energy_kcal",
+   "candidate_value": 73,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "oyster",
+   "form_id": "oyster__main",
+   "metric": "protein_g",
+   "candidate_value": 9.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "oyster",
+   "form_id": "oyster__main",
+   "metric": "fat_g",
+   "candidate_value": 2.3,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "oyster",
+   "form_id": "oyster__main",
+   "metric": "saturated_fat_g",
+   "candidate_value": 0.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "oyster",
+   "form_id": "oyster__main",
+   "metric": "cholesterol_mg",
+   "candidate_value": 100,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "oyster",
+   "form_id": "oyster__main",
+   "metric": "sodium_mg",
+   "candidate_value": 270,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "scallop",
+   "form_id": "scallop__main",
+   "metric": "energy_kcal",
+   "candidate_value": 60,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "scallop",
+   "form_id": "scallop__main",
+   "metric": "protein_g",
+   "candidate_value": 15.7,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "scallop",
+   "form_id": "scallop__main",
+   "metric": "fat_g",
+   "candidate_value": 0.5,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "scallop",
+   "form_id": "scallop__main",
+   "metric": "saturated_fat_g",
+   "candidate_value": 0.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "scallop",
+   "form_id": "scallop__main",
+   "metric": "cholesterol_mg",
+   "candidate_value": 140,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "scallop",
+   "form_id": "scallop__main",
+   "metric": "sodium_mg",
+   "candidate_value": 120,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "dried_fish",
+   "form_id": "dried_fish__dried",
+   "metric": "energy_kcal",
+   "candidate_value": 340,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "dried_fish",
+   "form_id": "dried_fish__dried",
+   "metric": "protein_g",
+   "candidate_value": 45.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "dried_fish",
+   "form_id": "dried_fish__dried",
+   "metric": "sodium_mg",
+   "candidate_value": 1200,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "mushroom_dried",
+   "form_id": "mushroom_dried__dried",
+   "metric": "energy_kcal",
+   "candidate_value": 211,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "mushroom_dried",
+   "form_id": "mushroom_dried__dried",
+   "metric": "protein_g",
+   "candidate_value": 20.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "mushroom_dried",
+   "form_id": "mushroom_dried__dried",
+   "metric": "fiber_g",
+   "candidate_value": 31.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "beer",
+   "form_id": "beer__regular",
+   "metric": "energy_kcal",
+   "candidate_value": 43,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "beer",
+   "form_id": "beer__regular",
+   "metric": "carbohydrate_g",
+   "candidate_value": 3.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "liquor",
+   "form_id": "liquor__50",
+   "metric": "energy_kcal",
+   "candidate_value": 350,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sugary_drink",
+   "form_id": "sugary_drink__cola",
+   "metric": "energy_kcal",
+   "candidate_value": 43,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sugary_drink",
+   "form_id": "sugary_drink__cola",
+   "metric": "total_sugars_g",
+   "candidate_value": 10.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sugary_drink",
+   "form_id": "sugary_drink__cola",
+   "metric": "added_sugars_g",
+   "candidate_value": 10.6,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "juice",
+   "form_id": "juice__orange",
+   "metric": "energy_kcal",
+   "candidate_value": 45,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "juice",
+   "form_id": "juice__orange",
+   "metric": "carbohydrate_g",
+   "candidate_value": 10.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "juice",
+   "form_id": "juice__orange",
+   "metric": "total_sugars_g",
+   "candidate_value": 8.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "juice",
+   "form_id": "juice__orange",
+   "metric": "fiber_g",
+   "candidate_value": 0.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "honey",
+   "form_id": "honey__raw",
+   "metric": "energy_kcal",
+   "candidate_value": 321,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "honey",
+   "form_id": "honey__raw",
+   "metric": "carbohydrate_g",
+   "candidate_value": 82.4,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "honey",
+   "form_id": "honey__raw",
+   "metric": "total_sugars_g",
+   "candidate_value": 82.1,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "honey",
+   "form_id": "honey__raw",
+   "metric": "fructose_g",
+   "candidate_value": 38,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "bbq",
+   "form_id": "bbq__mixed",
+   "metric": "sodium_mg",
+   "candidate_value": null,
+   "candidate_range": [
+    400,
+    1200
+   ],
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sausage",
+   "form_id": "sausage__processed",
+   "metric": "energy_kcal",
+   "candidate_value": 425,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sausage",
+   "form_id": "sausage__processed",
+   "metric": "protein_g",
+   "candidate_value": 24.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sausage",
+   "form_id": "sausage__processed",
+   "metric": "fat_g",
+   "candidate_value": 37.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sausage",
+   "form_id": "sausage__processed",
+   "metric": "saturated_fat_g",
+   "candidate_value": 13.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "sausage",
+   "form_id": "sausage__processed",
+   "metric": "sodium_mg",
+   "candidate_value": null,
+   "candidate_range": [
+    800,
+    1500
+   ],
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "new_salt",
+   "form_id": "new_salt__table",
+   "metric": "sodium_mg",
+   "candidate_value": 39300,
+   "candidate_range": null,
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "new_soy_sauce",
+   "form_id": "new_soy_sauce__light",
+   "metric": "sodium_mg",
+   "candidate_value": 6600,
+   "candidate_range": [
+    5500,
+    7500
+   ],
+   "unit": "mg",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "new_soy_sauce",
+   "form_id": "new_soy_sauce__light",
+   "metric": "carbohydrate_g",
+   "candidate_value": 6.0,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "ml",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "new_starch",
+   "form_id": "new_starch__corn",
+   "metric": "energy_kcal",
+   "candidate_value": 381,
+   "candidate_range": null,
+   "unit": "kcal",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  },
+  {
+   "food_id": "new_starch",
+   "form_id": "new_starch__corn",
+   "metric": "carbohydrate_g",
+   "candidate_value": 91.2,
+   "candidate_range": null,
+   "unit": "g",
+   "basis": {
+    "amount": 100,
+    "unit": "g",
+    "edible_portion": true
+   },
+   "candidate_source": "《中国食物成分表（标准版）》第6版（通行值，本次未在线核对）",
+   "status": "unverified_candidate_not_for_computation"
+  }
+ ]
+}
