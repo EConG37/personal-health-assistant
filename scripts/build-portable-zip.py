@@ -1,6 +1,6 @@
 """Build and round-trip test a Windows folder ZIP from the audited application."""
 from pathlib import Path
-import hashlib, json, os, subprocess, tempfile, zipfile
+import hashlib, json, os, re, subprocess, tempfile, zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / 'dist'
@@ -33,7 +33,12 @@ with zipfile.ZipFile(target, 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as arch
     for file in sorted(SOURCE.rglob('*')):
         if not file.is_file(): continue
         relative = file.relative_to(SOURCE).as_posix()
-        allowed = relative in allowed_root or relative in ['locales/en-US.pak', 'locales/zh-CN.pak', 'resources/app.asar', 'resources/default_app.asar', 'resources/elevate.exe', 'resources/app.asar.unpacked/desktop/native/PanelFocusObserver.exe']
+        if relative == 'resources/app-update.yml':
+            config = dict(line.split(': ', 1) for line in file.read_text(encoding='utf-8').splitlines() if line.strip())
+            assert set(config) == {'owner', 'repo', 'provider', 'updaterCacheDirName'}, 'Unexpected update metadata fields'
+            assert config['provider'] == 'github' and re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9-]{0,38}', config['owner'])
+            assert re.fullmatch(r'[A-Za-z0-9._-]{1,100}', config['repo']) and config['updaterCacheDirName'] == 'uric-acid-companion-updater'
+        allowed = relative in allowed_root or relative in ['locales/en-US.pak', 'locales/zh-CN.pak', 'resources/app.asar', 'resources/app-update.yml', 'resources/default_app.asar', 'resources/elevate.exe', 'resources/app.asar.unpacked/desktop/native/PanelFocusObserver.exe']
         if not allowed: raise ValueError('Unexpected application file: ' + relative)
         data = file.read_bytes()
         name = prefix + relative

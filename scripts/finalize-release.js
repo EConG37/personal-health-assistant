@@ -6,6 +6,7 @@ assert(audit.ok&&tests.ok&&tests.existingUserFilesUnchanged&&tests.installerPayl
 assert.equal(audit.artifacts.length,2);
 const zip=JSON.parse(fs.readFileSync(path.join(dist,'portable-zip-verification.json'),'utf8'));
 assert(zip.ok&&zip.roundTripHashesMatch&&zip.auditedArchiveMatches&&zip.existingUserFilesUnchanged);
+assert(zip.file.includes('-'+version+'-'),'ZIP verification belongs to a different version');
 const output=path.join(root,'release',version);fs.mkdirSync(output,{recursive:true});
 const checksums=[];
 for(const item of [...audit.artifacts,zip]){
